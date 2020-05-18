@@ -1,0 +1,8 @@
+c:\users\vsadrnia\documents\visual studio 2015\Projects\ClinicMangement\ClinicMangement\bin\Debug\ClinicMangement.exe.config
+c:\users\vsadrnia\documents\visual studio 2015\Projects\ClinicMangement\ClinicMangement\bin\Debug\ClinicMangement.exe
+c:\users\vsadrnia\documents\visual studio 2015\Projects\ClinicMangement\ClinicMangement\bin\Debug\ClinicMangement.pdb
+c:\users\vsadrnia\documents\visual studio 2015\Projects\ClinicMangement\ClinicMangement\obj\Debug\ClinicMangement.Form1.resources
+c:\users\vsadrnia\documents\visual studio 2015\Projects\ClinicMangement\ClinicMangement\obj\Debug\ClinicMangement.Properties.Resources.resources
+c:\users\vsadrnia\documents\visual studio 2015\Projects\ClinicMangement\ClinicMangement\obj\Debug\ClinicMangement.csproj.GenerateResource.Cache
+c:\users\vsadrnia\documents\visual studio 2015\Projects\ClinicMangement\ClinicMangement\obj\Debug\ClinicMangement.exe
+c:\users\vsadrnia\documents\visual studio 2015\Projects\ClinicMangement\ClinicMangement\obj\Debug\ClinicMangement.pdb
