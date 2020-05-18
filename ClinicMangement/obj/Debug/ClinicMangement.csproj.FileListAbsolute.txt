@@ -1,0 +1,18 @@
+c:\users\vsadrnia\documents\visual studio 2015\Projects\ClinicMangement\ClinicMangement\bin\Debug\ClinicMangement.exe.config
+c:\users\vsadrnia\documents\visual studio 2015\Projects\ClinicMangement\ClinicMangement\bin\Debug\ClinicMangement.exe
+c:\users\vsadrnia\documents\visual studio 2015\Projects\ClinicMangement\ClinicMangement\bin\Debug\ClinicMangement.pdb
+c:\users\vsadrnia\documents\visual studio 2015\Projects\ClinicMangement\ClinicMangement\obj\Debug\ClinicMangement.Form1.resources
+c:\users\vsadrnia\documents\visual studio 2015\Projects\ClinicMangement\ClinicMangement\obj\Debug\ClinicMangement.Properties.Resources.resources
+c:\users\vsadrnia\documents\visual studio 2015\Projects\ClinicMangement\ClinicMangement\obj\Debug\ClinicMangement.csproj.GenerateResource.Cache
+c:\users\vsadrnia\documents\visual studio 2015\Projects\ClinicMangement\ClinicMangement\obj\Debug\ClinicMangement.exe
+c:\users\vsadrnia\documents\visual studio 2015\Projects\ClinicMangement\ClinicMangement\obj\Debug\ClinicMangement.pdb
+C:\Users\seyye\Desktop\Classes\software Eng\clinic-manegement\ClinicMangement\bin\Debug\ClinicMangement.exe.config
+C:\Users\seyye\Desktop\Classes\software Eng\clinic-manegement\ClinicMangement\bin\Debug\ClinicMangement.exe
+C:\Users\seyye\Desktop\Classes\software Eng\clinic-manegement\ClinicMangement\bin\Debug\ClinicMangement.pdb
+C:\Users\seyye\Desktop\Classes\software Eng\clinic-manegement\ClinicMangement\obj\Debug\ClinicMangement.csprojAssemblyReference.cache
+C:\Users\seyye\Desktop\Classes\software Eng\clinic-manegement\ClinicMangement\obj\Debug\ClinicMangement.Form1.resources
+C:\Users\seyye\Desktop\Classes\software Eng\clinic-manegement\ClinicMangement\obj\Debug\ClinicMangement.Properties.Resources.resources
+C:\Users\seyye\Desktop\Classes\software Eng\clinic-manegement\ClinicMangement\obj\Debug\ClinicMangement.csproj.GenerateResource.cache
+C:\Users\seyye\Desktop\Classes\software Eng\clinic-manegement\ClinicMangement\obj\Debug\ClinicMangement.csproj.CoreCompileInputs.cache
+C:\Users\seyye\Desktop\Classes\software Eng\clinic-manegement\ClinicMangement\obj\Debug\ClinicMangement.exe
+C:\Users\seyye\Desktop\Classes\software Eng\clinic-manegement\ClinicMangement\obj\Debug\ClinicMangement.pdb
