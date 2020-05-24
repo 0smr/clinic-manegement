@@ -1,0 +1,180 @@
+% !TeX spellcheck = fa
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{fourier}
+\usepackage{amsmath}
+\usepackage{dirtree}
+\usepackage{verbatim}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{outlines}
+\usepackage{enumitem}
+\usepackage{fancyvrb}
+\usepackage{subcaption}
+\usepackage[Bjornstrup]{fncychap}%Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
+\usepackage{indentfirst}
+\usepackage{listings}
+\usepackage{lstautogobble}
+\usepackage[colorlinks,linkcolor=blue,citecolor=red,urlcolor=blue]{hyperref}
+\usepackage[fontsize={12,18}]{xepersian}
+
+%\settextfont{Microsoft Sans Serif}
+\settextfont{XB Yas}
+\setlatintextfont{Arial}
+
+\definecolor{ao}{rgb}{0.0, 0.5, 0.0}
+\definecolor{codeGreen}{rgb}{0, 0.5, 0.5}
+\definecolor{lavendergray}{rgb}{0.87, 0.86, 0.92}
+\definecolor{mint}{rgb}{0.24, 0.71, 0.54}
+\definecolor{aliceblue}{rgb}{0.94, 0.97, 1.0}
+\definecolor{customCommentGreen}{rgb}{0.13, 0.65, 0.47}
+
+\pagestyle{fancy}
+
+\cfoot{\thepage}
+%\rhead{\thepage }
+
+\renewcommand{\headrulewidth}{0.4pt}
+
+\newcommand{\lrInlineMono}[1]{\LTR\small\color{ao(english)}\verb|#1|}
+
+\begin{document}
+	\lstset{
+		frame=tb,
+		basicstyle=\color{codeGreen}\linespread{0.8}\ttfamily,
+		columns=fullflexible,
+		keepspaces=false,
+		tabsize=3,
+		autogobble,
+		breaklines=true,
+		breakatwhitespace=true,
+		stringstyle=\color{mint},
+		commentstyle=\color{gray},
+		keywordstyle=\color{blue},
+		language=C++,
+		aboveskip=3mm,
+		belowskip=3mm,
+		showstringspaces=false,
+		columns=flexible,
+		captionpos=b,
+		numbers=left,
+		numbersep=5pt,
+		numberstyle=\color{gray}\linespread{0.8}\ttfamily,
+		postbreak=\mbox{\textcolor{blue}{$\hookrightarrow$}\space}
+	}
+	
+	\renewcommand{\bibname}{مراجع}
+	
+	\title{
+		\settextfont{XB Titre}
+		سیستم مدیریت کلینیک
+	}
+	\author{
+		وحید صدرنیا، سید مرتضی رضوی
+	}
+	\date{
+		یکشنبه، ۶ اردیبهشت ۱۳۹۹
+	}
+
+	\maketitle
+	
+	\section*{تعریف}\label{chap13}
+	
+	درمانگاه یا کلینیک 
+	\LTRfootnote{\lr{Clinic /ˈklɪnɪk/}}
+	ساختمان یا بخشی در بیمارستان یا مرکز بهداشتی - درمانی که به درمان بیماران یا مراقبت پزشکی از بیماران سرپایی اختصاص دارد. معمولاً، درمانگاه موسسه‌ای مستقل است که به درمان بیماران می‌پردازد ولی برخلاف بیمارستان، بیماران را بستری نمی کند. درمانگاه می‌تواند عمومی یا تخصصی (مانند درمانگاه پوست و مو یا درمانگاه دندانپزشکی) باشد. برخلاف ساختمان پزشکان، درمانگاه مؤسسه واحدی است لذا می‌تواند با سازمان‌های بیمه گر و ادارات قرارداد (جهت پذیرش بیماران) ببندد.
+	
+	با توجه به پیشرفت فناوری اطلاعات و نیاز به بروزرسانی سیستم سلامت کشور به این نتیجه رسیدیم که بخش کوچکی از نیازهای فناوری اطلاعات بخش سلامت کشور را تامین کنیم و در این جهت به  پیاده سازی سیستم مدیریت درمانگاه پرداختیم، که نیازمندی‌های صاحب سیستم بطور مفصل در ذیل شرح داده شده‌اند.
+	
+	\section{نیازمندی‌ها}\label{sec1}
+	\begin{enumerate}[nosep]\label{enum1:sec1}
+		\item 
+		مدیرت مالی : این سیستم باید قابلیت مدیریت امور مالی کلینیک را داشته باشد.				
+		\item 
+		پشتیبانی از نوبت‌دهی آنلاین: در صورت نیاز نوبت دهی آنلاین از طریق وب‌سایت و به صورت غیر حضوری امکان پذیر است.
+		\item 
+		 اطلاع رسانی: در صورت نیاز به اطلاع رسانی از طریق پیامک به بیمار اطلاع رسانی  می‌شود.
+		\item 
+		 گزارشات بیمار: در صورت نیاز، بیمار بتواند پیشینه مراجعه خود به درمانگاه را دریافت کند.		 
+		\item 
+		حضور غیاب کارکنان: امکان حضور و غیاب کارکنان کلینیک، از جمله: دکتر، منشی و... فراهم باشد.
+		\item 
+		اطلاع رسانی از طریق وب‌سایت: امکان اطلاع رسانی زمان حضور دکتر در درمانگاه از طریق وب‌سایت وجود داشته باشد.
+		
+		\item 
+		گزارش گیری صحت بیمه: درصورت مراجعه بیمار، بیمه آن به صورت الکترونیک چک شود.
+		
+	\end{enumerate}
+	\section{تیم طراحی}\label{sec2}
+	طراحی این نرمافزار شامل تیمی متشکل از:
+	\begin{itemize}[nosep]\label{item1:sec2}
+		\item 
+		تحلیل‌گر و طراحی سیستم.
+		\item 
+		برنامه نویس مسلط به
+		\lr{C Sharp}
+		\item 
+		طراح
+		\lr{back end} و \lr{front end}
+		
+	\end{itemize}
+	این نرم‌افزار تحت ویندوز می‌باشد و بخش نوبت‌دهی آنلاین و اطلاع رسانی از طریق وب‌سایت توسط سیستم مدیریت محتوا، مدیریت می‌شود.
+
+	\section{تحلیل ریسک}\label{sec3}
+	\subsection{پیاده سازی سیستم}\label{subsec1:sec3}
+	با توجه به کوچک بودن گروه توسعه دهنده برای جلوگیری از ایجاد مشکل در فرایند توسعه و تولید نرم‌افزار از یک برنامه‌نویس و تحلیل‌گر پایگاه‌داده و سیستم، دعوت به همکاری شده تا در صورت مشکل برای افراد تیم پروژه با تأخیر جبران ناپذیر مواجه نشود.
+	
+	با توجه به توسعه فناوری اطلاعات و بالا رفتن سطح دانش عمومی فناوری اطلاعات در بخش پزشکی، ابراز علاقه مراکز بهداشت درمان به خودکار سازی فرایندها پیش بینی می‌شود که این سیستم بخش بزرگی از نیازمندی‌های درمانگاه‌ها را تامین کرده و بتواند بخش قابل توجهی از سهم بازار را از آن خود کند.
+	
+	\subsection{استقرار در محیط}\label{subsec2:sec3}
+	\begin{enumerate}[nosep]\label{enum1:subsec2:sec3}
+		\item
+			استفاده از چند برنامه‌نویس برای هر بخش و 
+			\lr{pair programming}.
+		\item
+			استفاده از سرویس پشتیبان برای چک کردن صحت بیمه، درصورت قطعی یا از درسترس خارج شدن سرویس جاری.
+		\item
+			استفاده از سرور‌های داخلی در صورت قطع کلی اینترنت.
+		\item
+			استفاده از سرور پشتیبان محلی برای حفاظت از اطلاعات.
+	\end{enumerate}
+
+		
+	\section{تخمین هزینه}\label{sec5}
+	\begin{enumerate}[nosep]\label{enum1:sec6}
+		\item 
+		۲ میلیون هزینه برای استخدام برنامه نویس و طراح پایگاه داده.
+		\item 
+		۳ میلیون استخدام طراح رابط کاربری‌.
+		\item 
+		۵.۱
+		 میلیون هزینه برنامه نویس رابط کاربری.
+		\item
+		۳ میلیون هزینه برنامه‌نویس 
+		\lr{C Sharp}
+		\item 
+		۱ میلیون هزینه سالانه سرور.
+		\item
+		۵ میلیون هزینه سرور محلی.
+	\end{enumerate}
+
+	\section{تخمین زمان}\label{sec6}
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[width=.9\linewidth]{Gantchart.pdf}
+		\caption{نمودار گانت}
+		\label{fig1:sec6}
+	\end{figure}
+
+	\pagebreak
+	\section{حالت موجود و حالت  مطلوب}\label{sec7}
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[width=.9\linewidth]{state.png}
+		\caption{حالت موجود و مطلوب}
+		\label{fig1:sec7}
+	\end{figure}
+
+\end{document}
