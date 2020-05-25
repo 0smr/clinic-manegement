@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.3.31)  5 MAY 2020 10:06
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.3.31)  25 MAY 2020 06:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -326,10 +326,57 @@ Package: dirtree 2012/12/11 v0.32 package wrapper for dirtree
 )
 File: dirtree.tex 2012/12/11 v0.32 `dirtree' (jcc)
 )
+(c:/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+\captionmargin=\dimen122
+\captionmargin@=\dimen123
+\captionwidth=\dimen124
+\caption@tempdima=\dimen125
+\caption@indent=\dimen126
+\caption@parindent=\dimen127
+\caption@hangindent=\dimen128
+)
+\c@caption@flags=\count104
+\c@ContinuedFloat=\count105
+)
+(c:/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count106
+\lst@gtempboxa=\box29
+\lst@token=\toks20
+\lst@length=\count107
+\lst@currlwidth=\dimen129
+\lst@column=\count108
+\lst@pos=\count109
+\lst@lostspace=\dimen130
+\lst@width=\dimen131
+\lst@newlines=\count110
+\lst@lineno=\count111
+\lst@maxwidth=\dimen132
+
+(c:/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count112
+\lst@skipnumbers=\count113
+\lst@framebox=\box30
+)
+(c:/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/02/27 1.8b listings configuration
+))
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
+
 (c:/texlive/2019/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks19
-\verbatim@line=\toks20
+\every@verbatim=\toks21
+\verbatim@line=\toks22
 \verbatim@in@stream=\read1
 )
 (c:/texlive/2019/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
@@ -348,10 +395,6 @@ s
 (c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks21
-)
 (c:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
@@ -363,8 +406,8 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 99.
 )
-\Gin@req@height=\dimen122
-\Gin@req@width=\dimen123
+\Gin@req@height=\dimen133
+\Gin@req@width=\dimen134
 )
 (c:/texlive/2019/texmf-dist/tex/latex/outlines/outlines.sty
 Package: outlines 2012/1/23 1.1 Ch. Pecheur
@@ -375,45 +418,35 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 (c:/texlive/2019/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/02/04 v3.8 Customized lists
 \labelindent=\skip55
-\enit@outerparindent=\dimen124
-\enit@toks=\toks22
-\enit@inbox=\box29
-\enit@count@id=\count104
-\enitdp@description=\count105
+\enit@outerparindent=\dimen135
+\enit@toks=\toks23
+\enit@inbox=\box31
+\enit@count@id=\count114
+\enitdp@description=\count115
 )
 (c:/texlive/2019/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2019/01/15
 
 Style option: `fancyvrb' v3.2a <2019/01/15> (tvz)
-\FV@CodeLineNo=\count106
+\FV@CodeLineNo=\count116
 \FV@InFile=\read2
-\FV@TabBox=\box30
-\c@FancyVerbLine=\count107
-\FV@StepNumber=\count108
+\FV@TabBox=\box32
+\c@FancyVerbLine=\count117
+\FV@StepNumber=\count118
 \FV@OutFile=\write3
 )
 (c:/texlive/2019/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
-
-(c:/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
-
-(c:/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen125
-\captionmargin@=\dimen126
-\captionwidth=\dimen127
-\caption@tempdima=\dimen128
-\caption@indent=\dimen129
-\caption@parindent=\dimen130
-\caption@hangindent=\dimen131
+\c@subfigure=\count119
+\c@subtable=\count120
 )
-\c@caption@flags=\count109
-\c@ContinuedFloat=\count110
+(c:/texlive/2019/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-\c@subfigure=\count111
-\c@subtable=\count112
+(c:/texlive/2019/texmf-dist/tex/latex/lstaddons/lstautogobble.sty
+Package: lstautogobble 2012/05/03 v0.1 Implements 'autogobble' option for 'list
+ings'
+\lstag@spacecount=\count121
 )
 (c:/texlive/2019/texmf-dist/tex/latex/fncychap/fncychap.sty
 Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
@@ -424,39 +457,6 @@ Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \py=\skip60
 \pyy=\skip61
 \pxx=\skip62
-)
-(c:/texlive/2019/texmf-dist/tex/latex/tools/indentfirst.sty
-Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-)
-(c:/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count113
-\lst@gtempboxa=\box31
-\lst@token=\toks23
-\lst@length=\count114
-\lst@currlwidth=\dimen132
-\lst@column=\count115
-\lst@pos=\count116
-\lst@lostspace=\dimen133
-\lst@width=\dimen134
-\lst@newlines=\count117
-\lst@lineno=\count118
-\lst@maxwidth=\dimen135
-
-(c:/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
-\c@lstnumber=\count119
-\lst@skipnumbers=\count120
-\lst@framebox=\box32
-)
-(c:/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2019/02/27 1.8b listings configuration
-))
-Package: listings 2019/02/27 1.8b (Carsten Heinz)
-
-(c:/texlive/2019/texmf-dist/tex/latex/lstaddons/lstautogobble.sty
-Package: lstautogobble 2012/05/03 v0.1 Implements 'autogobble' option for 'list
-ings'
-\lstag@spacecount=\count121
 )
 (c:/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
@@ -1117,67 +1117,67 @@ xt;"
 (fontspec)             <->"Arial/BI/OT:script=latn;language=DFLT;+smcp;mapping=
 tex-text;"
 
-LaTeX Info: Redefining \latinfont on input line 26.
+LaTeX Info: Redefining \latinfont on input line 27.
 
 (./Clinic Management Software.aux)
 \openout1 = `"Clinic Management Software.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 43.
-LaTeX Font Info:    Try loading font information for FML+futm on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 44.
+LaTeX Font Info:    Try loading font information for FML+futm on input line 44.
 
 
 (c:/texlive/2019/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 43.
-LaTeX Font Info:    Try loading font information for FMS+futm on input line 43.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 44.
+LaTeX Font Info:    Try loading font information for FMS+futm on input line 44.
 
 
 (c:/texlive/2019/texmf-dist/tex/latex/fourier/fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 43.
-LaTeX Font Info:    Try loading font information for FMX+futm on input line 43.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 44.
+LaTeX Font Info:    Try loading font information for FMX+futm on input line 44.
 
 
 (c:/texlive/2019/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 43.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 44.
 
 (c:/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count347
 \AtBeginShipoutBox=\box52
-Package hyperref Info: Link coloring ON on input line 43.
+Package hyperref Info: Link coloring ON on input line 44.
 
 (c:/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1187,9 +1187,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count348
 )
-LaTeX Info: Redefining \ref on input line 43.
-LaTeX Info: Redefining \pageref on input line 43.
-LaTeX Info: Redefining \nameref on input line 43.
+LaTeX Info: Redefining \ref on input line 44.
+LaTeX Info: Redefining \pageref on input line 44.
+LaTeX Info: Redefining \nameref on input line 44.
 
 (./Clinic Management Software.out) (./Clinic Management Software.out)
 \@outlinefile=\write4
@@ -1229,58 +1229,58 @@ ext;"
 x-text;"
 (fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 
-LaTeX Info: Redefining \persianfont on input line 82.
-LaTeX Font Info:    Calculating math sizes for size <14.39996> on input line 82
+LaTeX Info: Redefining \persianfont on input line 84.
+LaTeX Font Info:    Calculating math sizes for size <14.39996> on input line 84
 .
-LaTeX Font Info:    Try loading font information for T1+futs on input line 82.
+LaTeX Font Info:    Try loading font information for T1+futs on input line 84.
 
 (c:/texlive/2019/texmf-dist/tex/latex/fourier/t1futs.fd
 File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
 )
-LaTeX Font Info:    Try loading font information for FML+futmi on input line 82
+LaTeX Font Info:    Try loading font information for FML+futmi on input line 84
 .
 
 (c:/texlive/2019/texmf-dist/tex/latex/fourier/fmlfutmi.fd
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 13.24792pt on input line 82.
+(Font)              scaled to size 13.24792pt on input line 84.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.06834pt on input line 82.
+(Font)              scaled to size 10.06834pt on input line 84.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.94884pt on input line 82.
+(Font)              scaled to size 7.94884pt on input line 84.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 13.24792pt on input line 82.
+(Font)              scaled to size 13.24792pt on input line 84.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.06834pt on input line 82.
+(Font)              scaled to size 10.06834pt on input line 84.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.94884pt on input line 82.
+(Font)              scaled to size 7.94884pt on input line 84.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 86.
+(Font)              scaled to size 11.03998pt on input line 87.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 86.
+(Font)              scaled to size 8.27998pt on input line 87.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 86.
+(Font)              scaled to size 6.43999pt on input line 87.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 86.
+(Font)              scaled to size 11.03998pt on input line 87.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 86.
+(Font)              scaled to size 8.27998pt on input line 87.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 86.
-LaTeX Font Info:    Calculating math sizes for size <10.00012> on input line 86
+(Font)              scaled to size 6.43999pt on input line 87.
+LaTeX Font Info:    Calculating math sizes for size <10.00012> on input line 87
 .
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.20009pt on input line 86.
+(Font)              scaled to size 9.20009pt on input line 87.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99202pt on input line 86.
+(Font)              scaled to size 6.99202pt on input line 87.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.5201pt on input line 86.
+(Font)              scaled to size 5.5201pt on input line 87.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.20009pt on input line 86.
+(Font)              scaled to size 9.20009pt on input line 87.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99202pt on input line 86.
+(Font)              scaled to size 6.99202pt on input line 87.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.5201pt on input line 86.
+(Font)              scaled to size 5.5201pt on input line 87.
 
 (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
@@ -1290,7 +1290,7 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 ]
 LaTeX Font Info:    Font shape `TU/XBYas(0)/m/sl' in size <12> not available
 (Font)              Font shape `TU/XBYas(0)/m/it' tried instead on input line 1
-50.
+51.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1299,29 +1299,44 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [2]
-File: Gantchart.pdf Graphic file (type pdf)
-<use Gantchart.pdf>
+File: gantChart_timeTable.pdf Graphic file (type pdf)
+<use gantChart_timeTable.pdf>
+File: gantchart.pdf Graphic file (type pdf)
+<use gantchart.pdf>
  [3]
-File: state.png Graphic file (type bmp)
-<state.png>
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 180.
+File: employeePresence.pdf Graphic file (type pdf)
+<use employeePresence.pdf>
+File: makeAnAppointment.pdf Graphic file (type pdf)
+<use makeAnAppointment.pdf>
  [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 180.
+File: requestPatientHistory.pdf Graphic file (type pdf)
+<use requestPatientHistory.pdf>
+File: visiting.pdf Graphic file (type pdf)
+<use visiting.pdf>
+ [5]
+File: useCase.pdf Graphic file (type pdf)
+<use useCase.pdf>
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 240.
+LaTeX Font Info:    Font shape `TU/Arial(0)/m/sl' in size <12> not available
+(Font)              Font shape `TU/Arial(0)/m/it' tried instead on input line 2
+40.
+ [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 240.
  (./Clinic Management Software.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 180.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 180.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 240.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 240.
 Package rerunfilecheck Info: File `"Clinic Management Software".out' has not ch
 anged.
 (rerunfilecheck)             Checksum: .
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 180.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 240.
  ) 
 Here is how much of TeX's memory you used:
- 26742 strings out of 492922
- 500560 string characters out of 6136751
- 776840 words of memory out of 5000000
- 30436 multiletter control sequences out of 15000+600000
- 600822 words of font info for 124 fonts, out of 8000000 for 9000
+ 26789 strings out of 492922
+ 501797 string characters out of 6136751
+ 777856 words of memory out of 5000000
+ 30476 multiletter control sequences out of 15000+600000
+ 600846 words of font info for 127 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 47i,11n,97p,1253b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,12n,97p,1253b,623s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Clinic Management Software.pdf (4 pages).
+Output written on Clinic Management Software.pdf (6 pages).

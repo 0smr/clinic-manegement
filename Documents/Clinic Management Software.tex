@@ -6,6 +6,8 @@
 \usepackage{fourier}
 \usepackage{amsmath}
 \usepackage{dirtree}
+\usepackage{caption}
+\usepackage{listings}
 \usepackage{verbatim}
 \usepackage{fancyhdr}
 \usepackage{graphicx}
@@ -13,10 +15,9 @@
 \usepackage{enumitem}
 \usepackage{fancyvrb}
 \usepackage{subcaption}
-\usepackage[Bjornstrup]{fncychap}%Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
 \usepackage{indentfirst}
-\usepackage{listings}
 \usepackage{lstautogobble}
+\usepackage[Bjornstrup]{fncychap}%Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
 \usepackage[colorlinks,linkcolor=blue,citecolor=red,urlcolor=blue]{hyperref}
 \usepackage[fontsize={12,18}]{xepersian}
 
@@ -79,7 +80,7 @@
 	}
 
 	\maketitle
-	
+	%\part{\lr{RFP}}
 	\section*{تعریف}\label{chap13}
 	
 	درمانگاه یا کلینیک 
@@ -145,36 +146,95 @@
 	\section{تخمین هزینه}\label{sec5}
 	\begin{enumerate}[nosep]\label{enum1:sec6}
 		\item 
-		۲ میلیون هزینه برای استخدام برنامه نویس و طراح پایگاه داده.
+		$2$ میلیون هزینه برای استخدام برنامه نویس و طراح پایگاه داده.
 		\item 
-		۳ میلیون استخدام طراح رابط کاربری‌.
+		$3$ میلیون استخدام طراح رابط کاربری‌.
 		\item 
-		۵.۱
-		 میلیون هزینه برنامه نویس رابط کاربری.
+		$1.5$ میلیون هزینه برنامه نویس رابط کاربری.
 		\item
-		۳ میلیون هزینه برنامه‌نویس 
+		$3$ میلیون هزینه برنامه‌نویس 
 		\lr{C Sharp}
 		\item 
-		۱ میلیون هزینه سالانه سرور.
+		$1$ میلیون هزینه سالانه سرور.
 		\item
-		۵ میلیون هزینه سرور محلی.
+		$5$ میلیون هزینه سرور محلی.
 	\end{enumerate}
 
 	\section{تخمین زمان}\label{sec6}
 	\begin{figure}[!h]
-		\centering
-		\includegraphics[width=.9\linewidth]{Gantchart.pdf}
-		\caption{نمودار گانت}
 		\label{fig1:sec6}
+		\begin{flushleft}	
+			\quad		
+			\begin{subfigure}[t]{0.5\textwidth}
+				\includegraphics[width=\textwidth]{gantChart_timeTable.pdf}
+				\caption{جدول زمانی}
+				\label{subfig2:fig1:sec6}
+			\end{subfigure}\\
+			\begin{subfigure}[t]{\textwidth}
+				\includegraphics[width=\textwidth]{gantchart.pdf}
+				\caption{نمودار گانت}
+				\label{subfig1:fig1:sec6}
+			\end{subfigure}
+		\end{flushleft}
 	\end{figure}
 
 	\pagebreak
-	\section{حالت موجود و حالت  مطلوب}\label{sec7}
+	\section{
+		نمودار
+		BPMN}\label{sec7}
+	نمودار 
+	\lr{BPMN}
+	استانداردی برای مدل‌سازی و نمایش فرایند‌های کسب‌و‌کار است. هدف اصلی در شکل گیری
+	\lr{BPMN}،
+	طراحی نمادهایی است که قابل‌درک برای تمامی کابران فرایند (از تحلیلگران فرایند کاری 
+	\lr{(Business Analysts)}
+	تا کاربران فنی 
+	\lr{(Technical Developers)}
+	و حتی کاربرانی که پایش و کنترل فرایند را بر عهده‌دارند) باشد.
 	\begin{figure}[!h]
-		\centering
-		\includegraphics[width=.9\linewidth]{state.png}
-		\caption{حالت موجود و مطلوب}
 		\label{fig1:sec7}
+		\begin{center}
+			\begin{subfigure}[t]{\textwidth}
+				\includegraphics[width=\textwidth]{employeePresence.pdf}
+				\caption{حضور غیاب کارکنان (حالت موجود و مطلوب)}
+				\label{subfig1:fig1:sec7}
+			\end{subfigure}
+			\begin{subfigure}[t]{\textwidth}
+				\includegraphics[width=\textwidth]{makeAnAppointment.pdf}
+				\caption{وقت گرفتن (حالت موجود و مطلوب)}
+				\label{subfig2:fig1:sec7}
+			\end{subfigure}
+		\end{center}
 	\end{figure}
 
+
+	\pagebreak
+	\begin{figure}[!h]
+		\label{fig2:sec7}
+		\begin{center}
+			\begin{subfigure}[t]{\textwidth}
+				\includegraphics[width=\linewidth]{requestPatientHistory.pdf}
+				\caption{درخواست گزارش پیشینه درمان (حالت موجود و مطلوب)}
+				\label{subfig3:fig1:sec7}
+			\end{subfigure}	\\
+			\begin{subfigure}[t]{\textwidth}
+				\includegraphics[width=\textwidth]{visiting.pdf}
+				\caption{ویزیت شدن بیمار(حالت موجود و مطلوب)}
+				\label{subfig4:fig1:sec7}
+			\end{subfigure}	
+		\end{center}
+	\end{figure}
+
+	\pagebreak
+	%\part{\lr{UML}}
+	\section{
+		نمودار 
+		\lr{UseCase}}\label{sec8}
+	\begin{figure}[!h]
+		\label{fig1:sec8}
+		\begin{center}
+			\includegraphics[width=0.7\textwidth]{useCase.pdf}
+			\caption{نمودار مورد کاربرد}
+		\end{center}
+	\end{figure}
 \end{document}
