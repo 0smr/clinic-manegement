@@ -1,23 +1,24 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.3.31)  25 MAY 2020 06:49
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.3.31)  25 MAY 2020 17:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **"Clinic Management Software.tex"
 (./Clinic Management Software.tex
 LaTeX2e <2018-12-01>
-(c:/texlive/2019/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+(c:/texlive/2019/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
 (c:/texlive/2019/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
@@ -266,13 +267,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count88
+\inf@bad=\count89
 LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count89
-\leftroot@=\count90
+\uproot@=\count90
+\leftroot@=\count91
 LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count91
-\DOTSCASE@=\count92
+\classnum@=\count92
+\DOTSCASE@=\count93
 LaTeX Info: Redefining \ldots on input line 482.
 LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
@@ -281,15 +282,15 @@ LaTeX Info: Redefining \cdots on input line 606.
 \big@size=\dimen105
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count93
-\c@MaxMatrixCols=\count94
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
 \dotsspace@=\muskip10
-\c@parentequation=\count95
-\dspbrk@lvl=\count96
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
 \tag@help=\toks15
-\row@=\count97
-\column@=\count98
-\maxfields@=\count99
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
 \andhelp@=\toks16
 \eqnshift@=\dimen106
 \alignsep@=\dimen107
@@ -316,10 +317,10 @@ Package: dirtree 2012/12/11 v0.32 package wrapper for dirtree
 \DT@rulewidth=\dimen116
 \DT@dotwidth=\dimen117
 \DTbaselineskip=\dimen118
-\DT@counti=\count100
-\DT@countii=\count101
-\DT@countiii=\count102
-\DT@countiv=\count103
+\DT@counti=\count101
+\DT@countii=\count102
+\DT@countiii=\count103
+\DT@countiv=\count104
 \DT@indent=\dimen119
 \DT@parskip=\dimen120
 \DT@baselineskip=\dimen121
@@ -345,27 +346,27 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \caption@parindent=\dimen127
 \caption@hangindent=\dimen128
 )
-\c@caption@flags=\count104
-\c@ContinuedFloat=\count105
+\c@caption@flags=\count105
+\c@ContinuedFloat=\count106
 )
 (c:/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count106
+\lst@mode=\count107
 \lst@gtempboxa=\box29
 \lst@token=\toks20
-\lst@length=\count107
+\lst@length=\count108
 \lst@currlwidth=\dimen129
-\lst@column=\count108
-\lst@pos=\count109
+\lst@column=\count109
+\lst@pos=\count110
 \lst@lostspace=\dimen130
 \lst@width=\dimen131
-\lst@newlines=\count110
-\lst@lineno=\count111
+\lst@newlines=\count111
+\lst@lineno=\count112
 \lst@maxwidth=\dimen132
 
 (c:/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
-\c@lstnumber=\count112
-\lst@skipnumbers=\count113
+\c@lstnumber=\count113
+\lst@skipnumbers=\count114
 \lst@framebox=\box30
 )
 (c:/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
@@ -421,24 +422,24 @@ Package: enumitem 2019/02/04 v3.8 Customized lists
 \enit@outerparindent=\dimen135
 \enit@toks=\toks23
 \enit@inbox=\box31
-\enit@count@id=\count114
-\enitdp@description=\count115
+\enit@count@id=\count115
+\enitdp@description=\count116
 )
 (c:/texlive/2019/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2019/01/15
 
 Style option: `fancyvrb' v3.2a <2019/01/15> (tvz)
-\FV@CodeLineNo=\count116
+\FV@CodeLineNo=\count117
 \FV@InFile=\read2
 \FV@TabBox=\box32
-\c@FancyVerbLine=\count117
-\FV@StepNumber=\count118
+\c@FancyVerbLine=\count118
+\FV@StepNumber=\count119
 \FV@OutFile=\write3
 )
 (c:/texlive/2019/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
-\c@subfigure=\count119
-\c@subtable=\count120
+\c@subfigure=\count120
+\c@subtable=\count121
 )
 (c:/texlive/2019/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
@@ -446,7 +447,7 @@ Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 (c:/texlive/2019/texmf-dist/tex/latex/lstaddons/lstautogobble.sty
 Package: lstautogobble 2012/05/03 v0.1 Implements 'autogobble' option for 'list
 ings'
-\lstag@spacecount=\count121
+\lstag@spacecount=\count122
 )
 (c:/texlive/2019/texmf-dist/tex/latex/fncychap/fncychap.sty
 Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
@@ -512,13 +513,13 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen136
-\Hy@linkcounter=\count122
-\Hy@pagecounter=\count123
+\Hy@linkcounter=\count123
+\Hy@pagecounter=\count124
 
 (c:/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count124
+\Hy@SavedSpaceFactor=\count125
 
 (c:/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -531,7 +532,7 @@ Package hyperref Info: Plain pages OFF on input line 4534.
 Package hyperref Info: Backreferencing OFF on input line 4539.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4772.
-\c@Hy@tempcnt=\count125
+\c@Hy@tempcnt=\count126
 
 (c:/texlive/2019/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
@@ -539,7 +540,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5125.
 \XeTeXLinkMargin=\dimen137
-\Fld@menulength=\count126
+\Fld@menulength=\count127
 \Field@Width=\dimen138
 \Fld@charsize=\dimen139
 Package hyperref Info: Hyper figures OFF on input line 6380.
@@ -551,9 +552,9 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6405.
 Package hyperref Info: PDF/A mode OFF on input line 6410.
 LaTeX Info: Redefining \ref on input line 6450.
 LaTeX Info: Redefining \pageref on input line 6454.
-\Hy@abspage=\count127
-\c@Item=\count128
-\c@Hfootnote=\count129
+\Hy@abspage=\count128
+\c@Item=\count129
+\c@Hfootnote=\count130
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
@@ -568,10 +569,10 @@ Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
 )
 )
 \pdfm@box=\box33
-\c@Hy@AnnotLevel=\count130
-\HyField@AnnotCount=\count131
-\Fld@listcount=\count132
-\c@bookmark@seq@number=\count133
+\c@Hy@AnnotLevel=\count131
+\HyField@AnnotCount=\count132
+\Fld@listcount=\count133
+\c@bookmark@seq@number=\count134
 
 (c:/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -590,18 +591,18 @@ Package: expl3 2019-04-06 L3 programming layer (loader)
 
 (c:/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2019-04-06 L3 programming layer (code)
-\c_max_int=\count134
-\l_tmpa_int=\count135
-\l_tmpb_int=\count136
-\g_tmpa_int=\count137
-\g_tmpb_int=\count138
-\g__kernel_prg_map_int=\count139
-\c__ior_term_ior=\count140
-\c_log_iow=\count141
-\l_iow_line_count_int=\count142
-\l__iow_line_target_int=\count143
-\l__iow_one_indent_int=\count144
-\l__iow_indent_int=\count145
+\c_max_int=\count135
+\l_tmpa_int=\count136
+\l_tmpb_int=\count137
+\g_tmpa_int=\count138
+\g_tmpb_int=\count139
+\g__kernel_prg_map_int=\count140
+\c__ior_term_ior=\count141
+\c_log_iow=\count142
+\l_iow_line_count_int=\count143
+\l__iow_line_target_int=\count144
+\l__iow_one_indent_int=\count145
+\l__iow_indent_int=\count146
 \c_zero_dim=\dimen140
 \c_max_dim=\dimen141
 \l_tmpa_dim=\dimen142
@@ -620,75 +621,75 @@ Package: expl3 2019-04-06 L3 programming layer (code)
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count146
-\l__intarray_loop_int=\count147
+\l_keys_choice_int=\count147
+\l__intarray_loop_int=\count148
 \c__intarray_sp_dim=\dimen146
-\g__intarray_font_int=\count148
-\c__fp_leading_shift_int=\count149
-\c__fp_middle_shift_int=\count150
-\c__fp_trailing_shift_int=\count151
-\c__fp_big_leading_shift_int=\count152
-\c__fp_big_middle_shift_int=\count153
-\c__fp_big_trailing_shift_int=\count154
-\c__fp_Bigg_leading_shift_int=\count155
-\c__fp_Bigg_middle_shift_int=\count156
-\c__fp_Bigg_trailing_shift_int=\count157
-\g__fp_array_int=\count158
-\l__fp_array_loop_int=\count159
-\l__sort_length_int=\count160
-\l__sort_min_int=\count161
-\l__sort_top_int=\count162
-\l__sort_max_int=\count163
-\l__sort_true_max_int=\count164
-\l__sort_block_int=\count165
-\l__sort_begin_int=\count166
-\l__sort_end_int=\count167
-\l__sort_A_int=\count168
-\l__sort_B_int=\count169
-\l__sort_C_int=\count170
-\l__tl_analysis_normal_int=\count171
-\l__tl_analysis_index_int=\count172
-\l__tl_analysis_nesting_int=\count173
-\l__tl_analysis_type_int=\count174
-\l__regex_internal_a_int=\count175
-\l__regex_internal_b_int=\count176
-\l__regex_internal_c_int=\count177
-\l__regex_balance_int=\count178
-\l__regex_group_level_int=\count179
-\l__regex_mode_int=\count180
-\c__regex_cs_in_class_mode_int=\count181
-\c__regex_cs_mode_int=\count182
-\l__regex_catcodes_int=\count183
-\l__regex_default_catcodes_int=\count184
-\c__regex_catcode_L_int=\count185
-\c__regex_catcode_O_int=\count186
-\c__regex_catcode_A_int=\count187
-\c__regex_all_catcodes_int=\count188
-\l__regex_show_lines_int=\count189
-\l__regex_min_state_int=\count190
-\l__regex_max_state_int=\count191
-\l__regex_left_state_int=\count192
-\l__regex_right_state_int=\count193
-\l__regex_capturing_group_int=\count194
-\l__regex_min_pos_int=\count195
-\l__regex_max_pos_int=\count196
-\l__regex_curr_pos_int=\count197
-\l__regex_start_pos_int=\count198
-\l__regex_success_pos_int=\count199
-\l__regex_curr_char_int=\count266
-\l__regex_curr_catcode_int=\count267
-\l__regex_last_char_int=\count268
-\l__regex_case_changed_char_int=\count269
-\l__regex_curr_state_int=\count270
-\l__regex_step_int=\count271
-\l__regex_min_active_int=\count272
-\l__regex_max_active_int=\count273
-\l__regex_replacement_csnames_int=\count274
-\l__regex_match_count_int=\count275
-\l__regex_min_submatch_int=\count276
-\l__regex_submatch_int=\count277
-\l__regex_zeroth_submatch_int=\count278
-\g__regex_trace_regex_int=\count279
+\g__intarray_font_int=\count149
+\c__fp_leading_shift_int=\count150
+\c__fp_middle_shift_int=\count151
+\c__fp_trailing_shift_int=\count152
+\c__fp_big_leading_shift_int=\count153
+\c__fp_big_middle_shift_int=\count154
+\c__fp_big_trailing_shift_int=\count155
+\c__fp_Bigg_leading_shift_int=\count156
+\c__fp_Bigg_middle_shift_int=\count157
+\c__fp_Bigg_trailing_shift_int=\count158
+\g__fp_array_int=\count159
+\l__fp_array_loop_int=\count160
+\l__sort_length_int=\count161
+\l__sort_min_int=\count162
+\l__sort_top_int=\count163
+\l__sort_max_int=\count164
+\l__sort_true_max_int=\count165
+\l__sort_block_int=\count166
+\l__sort_begin_int=\count167
+\l__sort_end_int=\count168
+\l__sort_A_int=\count169
+\l__sort_B_int=\count170
+\l__sort_C_int=\count171
+\l__tl_analysis_normal_int=\count172
+\l__tl_analysis_index_int=\count173
+\l__tl_analysis_nesting_int=\count174
+\l__tl_analysis_type_int=\count175
+\l__regex_internal_a_int=\count176
+\l__regex_internal_b_int=\count177
+\l__regex_internal_c_int=\count178
+\l__regex_balance_int=\count179
+\l__regex_group_level_int=\count180
+\l__regex_mode_int=\count181
+\c__regex_cs_in_class_mode_int=\count182
+\c__regex_cs_mode_int=\count183
+\l__regex_catcodes_int=\count184
+\l__regex_default_catcodes_int=\count185
+\c__regex_catcode_L_int=\count186
+\c__regex_catcode_O_int=\count187
+\c__regex_catcode_A_int=\count188
+\c__regex_all_catcodes_int=\count189
+\l__regex_show_lines_int=\count190
+\l__regex_min_state_int=\count191
+\l__regex_max_state_int=\count192
+\l__regex_left_state_int=\count193
+\l__regex_right_state_int=\count194
+\l__regex_capturing_group_int=\count195
+\l__regex_min_pos_int=\count196
+\l__regex_max_pos_int=\count197
+\l__regex_curr_pos_int=\count198
+\l__regex_start_pos_int=\count199
+\l__regex_success_pos_int=\count266
+\l__regex_curr_char_int=\count267
+\l__regex_curr_catcode_int=\count268
+\l__regex_last_char_int=\count269
+\l__regex_case_changed_char_int=\count270
+\l__regex_curr_state_int=\count271
+\l__regex_step_int=\count272
+\l__regex_min_active_int=\count273
+\l__regex_max_active_int=\count274
+\l__regex_replacement_csnames_int=\count275
+\l__regex_match_count_int=\count276
+\l__regex_min_submatch_int=\count277
+\l__regex_submatch_int=\count278
+\l__regex_zeroth_submatch_int=\count279
+\g__regex_trace_regex_int=\count280
 \c_empty_box=\box34
 \l_tmpa_box=\box35
 \l_tmpb_box=\box36
@@ -733,37 +734,37 @@ Package: expl3 2019-04-06 L3 programming layer (code)
 \l__coffin_display_x_dim=\dimen170
 \l__coffin_display_y_dim=\dimen171
 \g__file_internal_ior=\read3
-\l__seq_internal_a_int=\count280
-\l__seq_internal_b_int=\count281
-\c__deprecation_minus_one=\count282
+\l__seq_internal_a_int=\count281
+\l__seq_internal_b_int=\count282
+\c__deprecation_minus_one=\count283
 )
 (c:/texlive/2019/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
 File: l3xdvipdfmx.def 2019-04-06 v L3 Experimental driver: xdvipdfmx
-\g__driver_image_int=\count283
-\g__driver_pdf_object_int=\count284
+\g__driver_image_int=\count284
+\g__driver_pdf_object_int=\count285
 ))
 Package: xparse 2019-03-05 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count285
-\g__xparse_grabber_int=\count286
-\l__xparse_m_args_int=\count287
-\l__xparse_v_nesting_int=\count288
+\l__xparse_current_arg_int=\count286
+\g__xparse_grabber_int=\count287
+\l__xparse_m_args_int=\count288
+\l__xparse_v_nesting_int=\count289
 )
 Package: fontspec 2019/03/15 v2.7c Font selection for XeLaTeX and LuaLaTeX
 
 (c:/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2019/03/15 v2.7c Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count289
-\l__fontspec_language_int=\count290
-\l__fontspec_strnum_int=\count291
-\l__fontspec_tmp_int=\count292
-\l__fontspec_tmpa_int=\count293
-\l__fontspec_tmpb_int=\count294
-\l__fontspec_tmpc_int=\count295
-\l__fontspec_em_int=\count296
-\l__fontspec_emdef_int=\count297
-\l__fontspec_strong_int=\count298
-\l__fontspec_strongdef_int=\count299
+\l__fontspec_script_int=\count290
+\l__fontspec_language_int=\count291
+\l__fontspec_strnum_int=\count292
+\l__fontspec_tmp_int=\count293
+\l__fontspec_tmpa_int=\count294
+\l__fontspec_tmpb_int=\count295
+\l__fontspec_tmpc_int=\count296
+\l__fontspec_em_int=\count297
+\l__fontspec_emdef_int=\count298
+\l__fontspec_strong_int=\count299
+\l__fontspec_strongdef_int=\count300
 \l__fontspec_tmpa_dim=\dimen172
 \l__fontspec_tmpb_dim=\dimen173
 \l__fontspec_tmpc_dim=\dimen174
@@ -785,43 +786,43 @@ LaTeX Info: Redefining \emph on input line 4121.
 ))
 (c:/texlive/2019/texmf-dist/tex/xelatex/xepersian/xepersian-persiancal.sty
 Package: xepersian-persiancal 2012/07/25 v0.2 provides Persian calendar
-\XePersian@i=\count300
-\XePersian@y=\count301
-\XePersian@m=\count302
-\XePersian@d=\count303
-\XePersian@latini=\count304
-\XePersian@persiani=\count305
-\XePersian@latinii=\count306
-\XePersian@persianii=\count307
-\XePersian@latiniii=\count308
-\XePersian@persianiii=\count309
-\XePersian@latiniv=\count310
-\XePersian@persianiv=\count311
-\XePersian@latinv=\count312
-\XePersian@persianv=\count313
-\XePersian@latinvi=\count314
-\XePersian@persianvi=\count315
-\XePersian@latinvii=\count316
-\XePersian@persianvii=\count317
-\XePersian@latinviii=\count318
-\XePersian@persianviii=\count319
-\XePersian@latinix=\count320
-\XePersian@persianix=\count321
-\XePersian@latinx=\count322
-\XePersian@persianx=\count323
-\XePersian@latinxi=\count324
-\XePersian@persianxi=\count325
-\XePersian@latinxii=\count326
-\XePersian@persianxii=\count327
-\XePersian@persianxiii=\count328
-\XePersian@temp=\count329
-\XePersian@temptwo=\count330
-\XePersian@tempthree=\count331
-\XePersian@yModHundred=\count332
-\XePersian@thirtytwo=\count333
-\XePersian@dn=\count334
-\XePersian@sn=\count335
-\XePersian@mminusone=\count336
+\XePersian@i=\count301
+\XePersian@y=\count302
+\XePersian@m=\count303
+\XePersian@d=\count304
+\XePersian@latini=\count305
+\XePersian@persiani=\count306
+\XePersian@latinii=\count307
+\XePersian@persianii=\count308
+\XePersian@latiniii=\count309
+\XePersian@persianiii=\count310
+\XePersian@latiniv=\count311
+\XePersian@persianiv=\count312
+\XePersian@latinv=\count313
+\XePersian@persianv=\count314
+\XePersian@latinvi=\count315
+\XePersian@persianvi=\count316
+\XePersian@latinvii=\count317
+\XePersian@persianvii=\count318
+\XePersian@latinviii=\count319
+\XePersian@persianviii=\count320
+\XePersian@latinix=\count321
+\XePersian@persianix=\count322
+\XePersian@latinx=\count323
+\XePersian@persianx=\count324
+\XePersian@latinxi=\count325
+\XePersian@persianxi=\count326
+\XePersian@latinxii=\count327
+\XePersian@persianxii=\count328
+\XePersian@persianxiii=\count329
+\XePersian@temp=\count330
+\XePersian@temptwo=\count331
+\XePersian@tempthree=\count332
+\XePersian@yModHundred=\count333
+\XePersian@thirtytwo=\count334
+\XePersian@dn=\count335
+\XePersian@sn=\count336
+\XePersian@mminusone=\count337
 )
 (c:/texlive/2019/texmf-dist/tex/xelatex/xepersian/xepersian-mathsdigitspec.sty
 Package: xepersian-mathsdigitspec 2018/12/16 v1.1.7 Unicode Persian maths digit
@@ -860,16 +861,16 @@ and LuaTeX
 Package: biditools 2018/12/11 v1.9 Programming tools for bidi package
 \@bidi@envbody=\toks24
 \@bidi@emptytoks=\toks25
-\bidi@tempcountb=\count337
+\bidi@tempcountb=\count338
 \bidi@temptoksa=\toks26
 \bidi@temptoksb=\toks27
-\bidi@dummies=\count338
+\bidi@dummies=\count339
 \bidi@are@these@correct=\toks28
 \bidi@toks@lista=\toks29
 \bidi@toks@listb=\toks30
-\bidi@stack@length=\count339
+\bidi@stack@length=\count340
 \bidi@empty@stack=\toks31
-\bidi@looprepeat@depth=\count340
+\bidi@looprepeat@depth=\count341
 )
 (c:/texlive/2019/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
 Package: zref-abspage 2018/11/21 v2.27 Module abspage for zref (HO)
@@ -880,7 +881,7 @@ Package zref Info: New property list: main on input line 759.
 Package zref Info: New property: default on input line 760.
 Package zref Info: New property: page on input line 761.
 )
-\c@abspage=\count341
+\c@abspage=\count342
 Package zref Info: New property: abspage on input line 62.
 )
 (c:/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
@@ -891,7 +892,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks32
 \XKV@tempa@toks=\toks33
 )
-\XKV@depth=\count342
+\XKV@depth=\count343
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 \@bidi@copyins@=\insert252
@@ -900,17 +901,17 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 File: latex-xetex-bidi.def 2019/03/03 v1.3.7 bidi adaptations for `latex.ltx' f
 or XeTeX engine
 \bidi@n@everypar=\toks34
-\bidi@column@check@number=\count343
+\bidi@column@check@number=\count344
 
 (c:/texlive/2019/texmf-dist/tex/xelatex/bidi/footnote-xetex-bidi.def
 File: footnote-xetex-bidi.def 2017/08/09 v1.1 bidi footnote macros for XeTeX en
 gine
-\c@footdir@label=\count344
+\c@footdir@label=\count345
 \footdir@toks=\toks35
 )
-(c:/texlive/2019/texmf-dist/tex/xelatex/bidi/article-xetex-bidi.def
-File: article-xetex-bidi.def 2017/06/09 v0.6 bidi adaptations for standard arti
-cle class for XeTeX engine
+(c:/texlive/2019/texmf-dist/tex/xelatex/bidi/report-xetex-bidi.def
+File: report-xetex-bidi.def 2017/06/09 v0.8 bidi adaptations for standard repor
+t class for XeTeX engine
 )
 (c:/texlive/2019/texmf-dist/tex/xelatex/bidi/amsmath-xetex-bidi.def
 File: amsmath-xetex-bidi.def 2018/01/08 v1.1 bidi adaptations for amsmath packa
@@ -959,7 +960,7 @@ kage for XeTeX engine
 File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
  last package loaded
 )
-\bidi@digits=\count345
+\bidi@digits=\count346
 \bidi@digits@charclass=\XeTeXcharclass1
 \bidi@sepmark@charclass=\XeTeXcharclass2
 )
@@ -983,7 +984,7 @@ File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
 * Issue tracker: https://github.com/vafa-ac/xepersian/issues
 * 
 ****************************************************
-\xepersian@tcl=\count346
+\xepersian@tcl=\count347
 \xepersian@ilg=\dimen175
 \xepersian@strutilg=\dimen176
 (c:/texlive/2019/texmf-dist/tex/xelatex/xepersian/loadingorder-xepersian.def
@@ -1005,9 +1006,9 @@ File: enumitem-xepersian.def 2017/09/06 v0.1 adaptations for enumitem package
 File: hyperref-xepersian.def 2015/02/02 v0.6 bilingual captions for hyperref pa
 ckage
 )
-(c:/texlive/2019/texmf-dist/tex/xelatex/xepersian/article-xepersian.def
-File: article-xepersian.def 2010/07/25 v0.2 adaptations for standard article cl
-ass
+(c:/texlive/2019/texmf-dist/tex/xelatex/xepersian/report-xepersian.def
+File: report-xepersian.def 2010/07/25 v0.2 adaptations for standard report clas
+s
 )
 (c:/texlive/2019/texmf-dist/tex/xelatex/xepersian/fontspec-xepersian.def
 File: fontspec-xepersian.def 2018/12/14 v0.3 fontspec changes
@@ -1175,7 +1176,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count347
+\c@lstlisting=\count348
 \AtBeginShipoutBox=\box52
 Package hyperref Info: Link coloring ON on input line 44.
 
@@ -1185,7 +1186,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count348
+\c@section@level=\count349
 )
 LaTeX Info: Redefining \ref on input line 44.
 LaTeX Info: Redefining \pageref on input line 44.
@@ -1205,6 +1206,42 @@ File: lstlang1.sty 2019/02/27 1.8b listings language file
 (c:/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
 )
+(./Clinic Management Software.toc
+LaTeX Font Info:    Try loading font information for T1+futs on input line 2.
+
+(c:/texlive/2019/texmf-dist/tex/latex/fourier/t1futs.fd
+File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
+)
+LaTeX Font Info:    Try loading font information for FML+futmi on input line 2.
+
+
+(c:/texlive/2019/texmf-dist/tex/latex/fourier/fmlfutmi.fd
+File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
+)
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 2.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 2.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 2.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 2.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 2.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 2.
+)
+\tf@toc=\write5
+\openout5 = `"Clinic Management Software.toc"'.
+
+
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
+
+) [1
+
+
+]
 
 Package fontspec Info: Could not resolve font "XB Titre/B" (it probably
 (fontspec)             doesn't exist).
@@ -1232,17 +1269,6 @@ x-text;"
 LaTeX Info: Redefining \persianfont on input line 84.
 LaTeX Font Info:    Calculating math sizes for size <14.39996> on input line 84
 .
-LaTeX Font Info:    Try loading font information for T1+futs on input line 84.
-
-(c:/texlive/2019/texmf-dist/tex/latex/fourier/t1futs.fd
-File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
-)
-LaTeX Font Info:    Try loading font information for FML+futmi on input line 84
-.
-
-(c:/texlive/2019/texmf-dist/tex/latex/fourier/fmlfutmi.fd
-File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
-)
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 13.24792pt on input line 84.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -1255,88 +1281,79 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 10.06834pt on input line 84.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 7.94884pt on input line 84.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 87.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 87.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 87.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 87.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 87.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 87.
-LaTeX Font Info:    Calculating math sizes for size <10.00012> on input line 87
+
+[1]
+فصل 1.
+LaTeX Font Info:    Calculating math sizes for size <10.00012> on input line 91
 .
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.20009pt on input line 87.
+(Font)              scaled to size 9.20009pt on input line 91.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99202pt on input line 87.
+(Font)              scaled to size 6.99202pt on input line 91.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.5201pt on input line 87.
+(Font)              scaled to size 5.5201pt on input line 91.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.20009pt on input line 87.
+(Font)              scaled to size 9.20009pt on input line 91.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99202pt on input line 87.
+(Font)              scaled to size 6.99202pt on input line 91.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.5201pt on input line 87.
-
-(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
-File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
-
-) [1
+(Font)              scaled to size 5.5201pt on input line 91.
+[1
 
 ]
 LaTeX Font Info:    Font shape `TU/XBYas(0)/m/sl' in size <12> not available
 (Font)              Font shape `TU/XBYas(0)/m/it' tried instead on input line 1
-51.
+46.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
-Make it at least 14.49998pt.
+Make it at least 15.70462pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[2]
+[2] [3]
 File: gantChart_timeTable.pdf Graphic file (type pdf)
 <use gantChart_timeTable.pdf>
 File: gantchart.pdf Graphic file (type pdf)
 <use gantchart.pdf>
- [3]
+ [4]
 File: employeePresence.pdf Graphic file (type pdf)
 <use employeePresence.pdf>
 File: makeAnAppointment.pdf Graphic file (type pdf)
 <use makeAnAppointment.pdf>
- [4]
+ [5]
 File: requestPatientHistory.pdf Graphic file (type pdf)
 <use requestPatientHistory.pdf>
 File: visiting.pdf Graphic file (type pdf)
 <use visiting.pdf>
- [5]
+ [6]
+فصل 2.
+[7
+
+]
 File: useCase.pdf Graphic file (type pdf)
 <use useCase.pdf>
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 240.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 247.
 LaTeX Font Info:    Font shape `TU/Arial(0)/m/sl' in size <12> not available
 (Font)              Font shape `TU/Arial(0)/m/it' tried instead on input line 2
-40.
- [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 240.
+47.
+ [8]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 247.
  (./Clinic Management Software.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 240.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 240.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 247.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 247.
 Package rerunfilecheck Info: File `"Clinic Management Software".out' has not ch
 anged.
 (rerunfilecheck)             Checksum: .
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 240.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 247.
  ) 
 Here is how much of TeX's memory you used:
- 26789 strings out of 492922
- 501797 string characters out of 6136751
- 777856 words of memory out of 5000000
- 30476 multiletter control sequences out of 15000+600000
- 600846 words of font info for 127 fonts, out of 8000000 for 9000
+ 26811 strings out of 492922
+ 502381 string characters out of 6136751
+ 778493 words of memory out of 5000000
+ 30490 multiletter control sequences out of 15000+600000
+ 600886 words of font info for 132 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  47i,12n,97p,1253b,623s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Clinic Management Software.pdf (6 pages).
+Output written on Clinic Management Software.pdf (10 pages).
