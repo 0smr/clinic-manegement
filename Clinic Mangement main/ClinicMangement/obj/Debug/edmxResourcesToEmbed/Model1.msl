@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ClinicMangementModelStoreContainer" CdmEntityContainer="ClinicMangementEntities2">
+    <EntitySetMapping Name="CallTheRoll">
+      <EntityTypeMapping TypeName="ClinicMangementModel.CallTheRoll">
+        <MappingFragment StoreEntitySet="CallTheRoll">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="EmpeloyId" ColumnName="EmpeloyId" />
+          <ScalarProperty Name="TimeIn" ColumnName="TimeIn" />
+          <ScalarProperty Name="TimeOut" ColumnName="TimeOut" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DarmanType">
+      <EntityTypeMapping TypeName="ClinicMangementModel.DarmanType">
+        <MappingFragment StoreEntitySet="DarmanType">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="DarmanName" ColumnName="DarmanName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employes">
+      <EntityTypeMapping TypeName="ClinicMangementModel.Employes">
+        <MappingFragment StoreEntitySet="Employes">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="EmployesType" ColumnName="EmployesType" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="lname" ColumnName="lname" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmployesType">
+      <EntityTypeMapping TypeName="ClinicMangementModel.EmployesType">
+        <MappingFragment StoreEntitySet="EmployesType">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Ename" ColumnName="Ename" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Insurance">
+      <EntityTypeMapping TypeName="ClinicMangementModel.Insurance">
+        <MappingFragment StoreEntitySet="Insurance">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="IName" ColumnName="IName" />
+          <ScalarProperty Name="Percentage" ColumnName="Percentage" />
+          <ScalarProperty Name="darmanType" ColumnName="darmanType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Patient">
+      <EntityTypeMapping TypeName="ClinicMangementModel.Patient">
+        <MappingFragment StoreEntitySet="Patient">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="lname" ColumnName="lname" />
+          <ScalarProperty Name="NCode" ColumnName="NCode" />
+          <ScalarProperty Name="InsuranceType" ColumnName="InsuranceType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RootUser">
+      <EntityTypeMapping TypeName="ClinicMangementModel.RootUser">
+        <MappingFragment StoreEntitySet="RootUser">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="user" ColumnName="user" />
+          <ScalarProperty Name="pass" ColumnName="pass" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="ClinicMangementModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SystemUsers">
+      <EntityTypeMapping TypeName="ClinicMangementModel.SystemUsers">
+        <MappingFragment StoreEntitySet="SystemUsers">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="lname" ColumnName="lname" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Passwor" ColumnName="Passwor" />
+          <ScalarProperty Name="Report" ColumnName="Report" />
+          <ScalarProperty Name="Search" ColumnName="Search" />
+          <ScalarProperty Name="Setting" ColumnName="Setting" />
+          <ScalarProperty Name="Insert" ColumnName="Insert" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Visit">
+      <EntityTypeMapping TypeName="ClinicMangementModel.Visit">
+        <MappingFragment StoreEntitySet="Visit">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="EmployeId" ColumnName="EmployeId" />
+          <ScalarProperty Name="PatientId" ColumnName="PatientId" />
+          <ScalarProperty Name="InsuranceId" ColumnName="InsuranceId" />
+          <ScalarProperty Name="Prescription" ColumnName="Prescription" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="FetchEmployes" FunctionName="ClinicMangementModel.Store.FetchEmployes">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicMangementModel.FetchEmployes_Result">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="lname" ColumnName="lname" />
+          <ScalarProperty Name="Ename" ColumnName="Ename" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="FetchInsurance" FunctionName="ClinicMangementModel.Store.FetchInsurance">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ClinicMangementModel.FetchInsurance_Result">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="IName" ColumnName="IName" />
+          <ScalarProperty Name="Percentage" ColumnName="Percentage" />
+          <ScalarProperty Name="DarmanName" ColumnName="DarmanName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

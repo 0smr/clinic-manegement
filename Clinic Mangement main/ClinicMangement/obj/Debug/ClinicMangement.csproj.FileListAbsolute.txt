@@ -16,3 +16,18 @@ C:\Users\seyye\Desktop\Classes\software Eng\clinic-manegement\ClinicMangement\ob
 C:\Users\seyye\Desktop\Classes\software Eng\clinic-manegement\ClinicMangement\obj\Debug\ClinicMangement.csproj.CoreCompileInputs.cache
 C:\Users\seyye\Desktop\Classes\software Eng\clinic-manegement\ClinicMangement\obj\Debug\ClinicMangement.exe
 C:\Users\seyye\Desktop\Classes\software Eng\clinic-manegement\ClinicMangement\obj\Debug\ClinicMangement.pdb
+C:\Users\Vsadrnia\Desktop\clinic-manegement\Clinic Mangement main\ClinicMangement\bin\Debug\ClinicMangement.exe.config
+C:\Users\Vsadrnia\Desktop\clinic-manegement\Clinic Mangement main\ClinicMangement\obj\Debug\ClinicMangement.exe
+C:\Users\Vsadrnia\Desktop\clinic-manegement\Clinic Mangement main\ClinicMangement\obj\Debug\ClinicMangement.pdb
+C:\Users\Vsadrnia\Desktop\clinic-manegement\Clinic Mangement main\ClinicMangement\bin\Debug\ClinicMangement.exe
+C:\Users\Vsadrnia\Desktop\clinic-manegement\Clinic Mangement main\ClinicMangement\bin\Debug\ClinicMangement.pdb
+C:\Users\Vsadrnia\Desktop\clinic-manegement\Clinic Mangement main\ClinicMangement\obj\Debug\ClinicMangement.csprojResolveAssemblyReference.cache
+C:\Users\Vsadrnia\Desktop\clinic-manegement\Clinic Mangement main\ClinicMangement\obj\Debug\ClinicMangement.Properties.Resources.resources
+C:\Users\Vsadrnia\Desktop\clinic-manegement\Clinic Mangement main\ClinicMangement\obj\Debug\ClinicMangement.csproj.GenerateResource.Cache
+C:\Users\Vsadrnia\Desktop\clinic-manegement\Clinic Mangement main\ClinicMangement\bin\Debug\EntityFramework.dll
+C:\Users\Vsadrnia\Desktop\clinic-manegement\Clinic Mangement main\ClinicMangement\bin\Debug\EntityFramework.xml
+C:\Users\Vsadrnia\Desktop\clinic-manegement\Clinic Mangement main\ClinicMangement\obj\Debug\ClinicMangement.LogIn.resources
+C:\Users\Vsadrnia\Desktop\clinic-manegement\Clinic Mangement main\ClinicMangement\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\Vsadrnia\Desktop\clinic-manegement\Clinic Mangement main\ClinicMangement\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\Vsadrnia\Desktop\clinic-manegement\Clinic Mangement main\ClinicMangement\obj\Debug\ClinicMangement.Main.resources
+C:\Users\Vsadrnia\Desktop\clinic-manegement\Clinic Mangement main\ClinicMangement\obj\Debug\ClinicMangement.MainAdmin.resources
