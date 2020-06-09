@@ -1,56 +1,76 @@
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\Clinic Management website.dll.config
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\Clinic Management website.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\Clinic Management website.pdb
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\csc.exe
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\csc.exe.config
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\csc.rsp
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\csi.exe
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\csi.exe.config
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\csi.rsp
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\System.AppContext.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\System.Console.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\System.IO.Compression.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\System.IO.Pipes.AccessControl.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\System.IO.Pipes.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\System.Security.AccessControl.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\System.Security.Claims.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\System.Security.Principal.Windows.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\System.ValueTuple.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\System.Xml.XPath.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\vbc.exe
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\vbc.exe.config
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\vbc.rsp
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\VBCSCompiler.exe
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\obj\Debug\Clinic Management website.csprojAssemblyReference.cache
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\obj\Debug\Clinic Management website.csproj.CoreCompileInputs.cache
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\obj\Debug\Clinic Management website.csproj.CopyComplete
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\obj\Debug\Clinic Management website.dll
-C:\Users\seyye\Desktop\Classes\Software Eng\Laboratory\clinic-manegement\Clinic Management website\Clinic Management website\obj\Debug\Clinic Management website.pdb
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\Clinic Management website.dll.config
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\Clinic Management website.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\Clinic Management website.pdb
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\csc.exe
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\csc.exe.config
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\csc.rsp
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\csi.exe
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\csi.exe.config
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\csi.rsp
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\System.AppContext.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\System.Console.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\System.IO.Compression.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\System.IO.Pipes.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\System.Security.Claims.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\System.ValueTuple.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\System.Xml.XPath.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\vbc.exe
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\vbc.exe.config
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\vbc.rsp
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\VBCSCompiler.exe
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\Antlr3.Runtime.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\Newtonsoft.Json.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\System.Web.Helpers.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\System.Web.Mvc.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\System.Web.Optimization.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\System.Web.Razor.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\System.Web.WebPages.Deployment.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\System.Web.WebPages.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\System.Web.WebPages.Razor.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\WebGrease.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\System.Web.Helpers.xml
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\System.Web.Mvc.xml
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\System.Web.Optimization.xml
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\System.Web.Razor.xml
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\System.Web.WebPages.xml
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\System.Web.WebPages.Deployment.xml
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\System.Web.WebPages.Razor.xml
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\Newtonsoft.Json.xml
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\Antlr3.Runtime.pdb
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\obj\Debug\Clinic Management website.csprojAssemblyReference.cache
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\obj\Debug\Clinic Management website.csproj.CoreCompileInputs.cache
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\obj\Debug\Clinic Management website.csproj.CopyComplete
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\obj\Debug\Clinic Management website.dll
+C:\Users\seyye\source\repos\Clinic Management website\Clinic Management website\obj\Debug\Clinic Management website.pdb
