@@ -7,7 +7,6 @@
 \usepackage{amsmath}
 \usepackage{dirtree}
 \usepackage{caption}
-\usepackage{listings}
 \usepackage{verbatim}
 \usepackage{fancyhdr}
 \usepackage{graphicx}
@@ -15,74 +14,108 @@
 \usepackage{enumitem}
 \usepackage{fancyvrb}
 \usepackage{subcaption}
-\usepackage{indentfirst}
-\usepackage{lstautogobble}
+%% \usepackage[perpage]{footmisc}
+\usepackage[breakable]{tcolorbox}
 \usepackage[Bjornstrup]{fncychap}%Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
+\usepackage{indentfirst}
+\usepackage{listings}
+\usepackage{lstautogobble}
 \usepackage[colorlinks,linkcolor=blue,citecolor=red,urlcolor=blue]{hyperref}
-\usepackage[fontsize={12,18}]{xepersian}
+\tcbuselibrary{breakable, skins}
+\usepackage[logo=on,fontsize={12,18}]{xepersian}
 
-%\settextfont{Microsoft Sans Serif}
+% -------------- tcolorbox -------------
+\tcbset{
+	enhanced,
+	colback=cyan!5!white,
+	boxrule=0.1pt,
+	colframe=cyan!75!black,
+	fonttitle=\bfseries,
+	width=0.9\linewidth
+}
+% -------------- xepersian -------------
+%% \settextfont{Microsoft Sans Serif}
 \settextfont{XB Yas}
-\setlatintextfont{Arial}
+\setlatintextfont{XB Yas}
 
-\definecolor{ao}{rgb}{0.0, 0.5, 0.0}
-\definecolor{codeGreen}{rgb}{0, 0.5, 0.5}
-\definecolor{lavendergray}{rgb}{0.87, 0.86, 0.92}
-\definecolor{mint}{rgb}{0.24, 0.71, 0.54}
-\definecolor{aliceblue}{rgb}{0.94, 0.97, 1.0}
-\definecolor{customCommentGreen}{rgb}{0.13, 0.65, 0.47}
+\defpersianfont\Title[Scale=1.1]{XB Titre}
+\deflatinfont\InTheNameOfGod[Scale=16]{Far.Symbol8}
 
+% --------------   xcolor  -------------
+\definecolor{ao}{rgb}			{0.0 , 0.5 , 0.0	}
+\definecolor{codeGreen}{rgb}	{0	 , 0.5 , 0.5	}
+\definecolor{lavendergray}{rgb}	{0.87, 0.86, 0.92	}
+\definecolor{mint}{rgb}			{0.24, 0.71, 0.54	}
+\definecolor{aliceblue}{rgb}	{0.94, 0.97, 1.0	}
+\definecolor{commentGreen}{rgb}	{0.13, 0.65, 0.47	}
+\definecolor{steelBlue}{rgb}	{0.00, 0.00, 0.50	}
+\definecolor{stringGreen}{rgb}	{0	 , 0.5 , 0		}
+
+% --------------  fancyhdr -------------
 \pagestyle{fancy}
 
 \cfoot{\thepage}
-%\rhead{\thepage }
-
+\rhead{\thepage }
 \renewcommand{\headrulewidth}{0.4pt}
 
-\newcommand{\lrInlineMono}[1]{\LTR\small\color{ao(english)}\verb|#1|}
+%% new commonds.
+\newcommand{\lrm}[1]{\textcolor{steelBlue}{\lr{\texttt{#1}}}}
 
 \begin{document}
 	\lstset{
 		frame=tb,
-		basicstyle=\color{codeGreen}\linespread{0.8}\ttfamily,
+		basicstyle	=\color{steelBlue}\linespread{0.8}\ttfamily,
 		columns=fullflexible,
-		keepspaces=false,
-		tabsize=3,
+		keepspaces	=false,
+		tabsize		=3,
 		autogobble,
-		breaklines=true,
+		breaklines	=true,
 		breakatwhitespace=true,
-		stringstyle=\color{mint},
+		stringstyle	=\color{stringGreen},
 		commentstyle=\color{gray},
-		keywordstyle=\color{blue},
-		language=C++,
-		aboveskip=3mm,
-		belowskip=3mm,
+		keywordstyle=\color{purple},
+		language	=c++,
+		aboveskip	=3mm,
+		belowskip	=3mm,
 		showstringspaces=false,
-		columns=flexible,
-		captionpos=b,
-		numbers=left,
-		numbersep=5pt,
-		numberstyle=\color{gray}\linespread{0.8}\ttfamily,
-		postbreak=\mbox{\textcolor{blue}{$\hookrightarrow$}\space}
+		columns		=flexible,
+		captionpos	=b,
+		numbers		=left,
+		numbersep	=5pt,
+		numberstyle	=	\color{gray}\linespread{0.8}\ttfamily,
+		postbreak	=	\mbox{\textcolor{blue}{$\hookrightarrow$}\space}
 	}
 	
 	\renewcommand{\bibname}{مراجع}
+	\thispagestyle{empty}
 	
+	\begin{center}
+		{
+			\qquad\InTheNameOfGod 1
+		}
+	\end{center}
 	\title{
-		\settextfont{XB Titre}
+		\Title
 		سیستم مدیریت کلینیک
 	}
 	\author{
-		وحید صدرنیا، سید مرتضی رضوی
+		\Title
+		وَحید صَدرْنیاٰ، سیّد مرتضیٰ رضوی\\
 	}
 	\date{
+		\Title
 		یکشنبه، ۶ اردیبهشت ۱۳۹۹
 	}
-
-	\tableofcontents
+	
+	\pagenumbering{roman}
+	\setcounter{page}{0}
 	\maketitle
+	\tableofcontents
+	\listoffigures
+
 	\chapter{
 	مستندات طراحی}
+	\pagenumbering{arabic}
 	\section*{
 		مقدمه}
 	\label{chap13}
@@ -93,8 +126,8 @@
 	
 	با توجه به پیشرفت فناوری اطلاعات و نیاز به بروزرسانی سیستم سلامت کشور به این نتیجه رسیدیم که بخش کوچکی از نیازهای فناوری اطلاعات بخش سلامت کشور را تامین کنیم و در این جهت به  پیاده سازی سیستم مدیریت درمانگاه پرداختیم، که نیازمندی‌های صاحب سیستم بطور مفصل در ذیل شرح داده شده‌اند.
 	
-	\section{نیازمندی‌ها}\label{sec1}
-	\begin{enumerate}[nosep]\label{enum1:sec1}
+	\section{نیازمندی‌ها}\label{sec1:chap1}
+	\begin{enumerate}[nosep]\label{enum1:sec1:chap1}
 		\item 
 		مدیرت مالی : این سیستم باید قابلیت مدیریت امور مالی کلینیک را داشته باشد.				
 		\item 
@@ -112,9 +145,9 @@
 		گزارش گیری صحت بیمه: درصورت مراجعه بیمار، بیمه آن به صورت الکترونیک چک شود.
 		
 	\end{enumerate}
-	\section{تیم طراحی}\label{sec2}
+	\section{تیم طراحی}\label{sec2:chap1}
 	طراحی این نرمافزار شامل تیمی متشکل از:
-	\begin{itemize}[nosep]\label{item1:sec2}
+	\begin{itemize}[nosep]\label{item1:sec2:chap1}
 		\item 
 		تحلیل‌گر و طراحی سیستم.
 		\item 
@@ -127,14 +160,14 @@
 	\end{itemize}
 	این نرم‌افزار تحت ویندوز می‌باشد و بخش نوبت‌دهی آنلاین و اطلاع رسانی از طریق وب‌سایت توسط سیستم مدیریت محتوا، مدیریت می‌شود.
 
-	\section{تحلیل ریسک}\label{sec3}
-	\subsection{پیاده سازی سیستم}\label{subsec1:sec3}
+	\section{تحلیل ریسک}\label{sec3:chap1}
+	\subsection{پیاده سازی سیستم}\label{subsec1:sec3:chap1}
 	با توجه به کوچک بودن گروه توسعه دهنده برای جلوگیری از ایجاد مشکل در فرایند توسعه و تولید نرم‌افزار از یک برنامه‌نویس و تحلیل‌گر پایگاه‌داده و سیستم، دعوت به همکاری شده تا در صورت مشکل برای افراد تیم پروژه با تأخیر جبران ناپذیر مواجه نشود.
 	
 	با توجه به توسعه فناوری اطلاعات و بالا رفتن سطح دانش عمومی فناوری اطلاعات در بخش پزشکی، ابراز علاقه مراکز بهداشت درمان به خودکار سازی فرایندها پیش بینی می‌شود که این سیستم بخش بزرگی از نیازمندی‌های درمانگاه‌ها را تامین کرده و بتواند بخش قابل توجهی از سهم بازار را از آن خود کند.
 	
-	\subsection{استقرار در محیط}\label{subsec2:sec3}
-	\begin{enumerate}[nosep]\label{enum1:subsec2:sec3}
+	\subsection{استقرار در محیط}\label{subsec2:sec3:chap1}
+	\begin{enumerate}[nosep]\label{enum1:subsec2:sec3:chap1}
 		\item
 			استفاده از چند برنامه‌نویس برای هر بخش و 
 			\lr{pair programming}.
@@ -147,8 +180,8 @@
 	\end{enumerate}
 
 		
-	\section{تخمین هزینه}\label{sec5}
-	\begin{enumerate}[nosep]\label{enum1:sec6}
+	\section{تخمین هزینه}\label{sec4:chap1}
+	\begin{enumerate}[nosep]\label{enum1:sec4:chap1}
 		\item 
 		$2$ میلیون هزینه برای استخدام برنامه نویس و طراح پایگاه داده.
 		\item 
@@ -164,20 +197,20 @@
 		$5$ میلیون هزینه سرور محلی.
 	\end{enumerate}
 	\pagebreak
-	\section{تخمین زمان}\label{sec6}
+	\section{تخمین زمان}\label{sec5:chap1}
 	\begin{figure}[!h]
-		\label{fig1:sec6}
+		\label{fig1:sec5:chap1}
 		\begin{flushleft}	
 			\quad		
 			\begin{subfigure}[t]{0.5\textwidth}
-				\includegraphics[width=\textwidth]{gantChart_timeTable.pdf}
+				\includegraphics[width=\textwidth]{diagrams/gantChart_timeTable.pdf}
 				\caption{جدول زمانی}
-				\label{subfig2:fig1:sec6}
+				\label{subfig2:fig1:sec5:chap1}
 			\end{subfigure}\\
 			\begin{subfigure}[t]{\textwidth}
-				\includegraphics[width=\textwidth]{gantchart.pdf}
+				\includegraphics[width=\textwidth]{diagrams/gantchart.pdf}
 				\caption{نمودار گانت}
-				\label{subfig1:fig1:sec6}
+				\label{subfig1:fig1:sec5:chap1}
 			\end{subfigure}
 		\end{flushleft}
 	\end{figure}
@@ -185,7 +218,7 @@
 	\pagebreak
 	\section{
 		نمودار
-		BPMN}\label{sec7}
+		BPMN}\label{sec6:chap1}
 	نمودار 
 	\lr{BPMN}
 	استانداردی برای مدل‌سازی و نمایش فرایند‌های کسب‌و‌کار است. هدف اصلی در شکل گیری
@@ -196,17 +229,17 @@
 	\lr{(Technical Developers)}
 	و حتی کاربرانی که پایش و کنترل فرایند را بر عهده‌دارند) باشد.
 	\begin{figure}[!h]
-		\label{fig1:sec7}
+		\label{fig1:sec6:chap1}
 		\begin{center}
 			\begin{subfigure}[t]{\textwidth}
-				\includegraphics[width=\textwidth]{employeePresence.pdf}
+				\includegraphics[width=\textwidth]{diagrams/employeePresence.pdf}
 				\caption{حضور غیاب کارکنان (حالت موجود و مطلوب)}
-				\label{subfig1:fig1:sec7}
+				\label{subfig1:fig1:sec6:chap1}
 			\end{subfigure}
 			\begin{subfigure}[t]{\textwidth}
-				\includegraphics[width=\textwidth]{makeAnAppointment.pdf}
+				\includegraphics[width=\textwidth]{diagrams/makeAnAppointment.pdf}
 				\caption{وقت گرفتن (حالت موجود و مطلوب)}
-				\label{subfig2:fig1:sec7}
+				\label{subfig2:fig1:sec6:chap1}
 			\end{subfigure}
 		\end{center}
 	\end{figure}
@@ -214,17 +247,17 @@
 
 	\pagebreak
 	\begin{figure}[!h]
-		\label{fig2:sec7}
+		\label{fig2:sec6:chap1}
 		\begin{center}
 			\begin{subfigure}[t]{\textwidth}
-				\includegraphics[width=\linewidth]{requestPatientHistory.pdf}
+				\includegraphics[width=\linewidth]{diagrams/requestPatientHistory.pdf}
 				\caption{درخواست گزارش پیشینه درمان (حالت موجود و مطلوب)}
-				\label{subfig3:fig1:sec7}
+				\label{subfig3:fig1:sec6:chap1}
 			\end{subfigure}	\\
 			\begin{subfigure}[t]{\textwidth}
-				\includegraphics[width=\textwidth]{visiting.pdf}
+				\includegraphics[width=\textwidth]{diagrams/visiting.pdf}
 				\caption{ویزیت شدن بیمار(حالت موجود و مطلوب)}
-				\label{subfig4:fig1:sec7}
+				\label{subfig4:fig1:sec6:chap1}
 			\end{subfigure}	
 		\end{center}
 	\end{figure}
@@ -235,13 +268,38 @@
 	\pagebreak
 	\section{
 		نمودار 
-	\lr{UseCase}}\label{sec8}
+	\lr{UseCase}}\label{sec1:chap2}
 	\vspace{-2cm}
 	\begin{figure}[!h]
-		\label{fig1:sec8}
+		\label{fig1:sec1:chap2}
 		\begin{center}
-			\includegraphics[width=0.7\textwidth]{useCase.pdf}
+			\includegraphics[width=0.7\textwidth]{diagrams/useCase.pdf}
 			\caption{نمودار مورد کاربرد}
+		\end{center}
+	\end{figure}
+
+	\pagebreak
+	\section{
+		نمودار 
+		\lr{ERD}}\label{sec2:chap2}
+	\begin{figure}[!h]
+		\label{fig1:sec2:chap2}
+		\begin{center}
+			\includegraphics[width=0.8\textwidth]{diagrams/ERD.pdf}
+			\caption{نمودار رابطه موجودیت‌ها}
+		\end{center}
+	\end{figure}
+
+
+	\section{
+		نمودار 
+		\lr{Class}}\label{sec3:chap2}
+
+	\begin{figure}[!h]
+		\label{fig1:sec3:chap2}
+		\begin{center}
+			\includegraphics[width=0.8\textwidth]{diagrams/classDiagram.pdf}
+			\caption{نمودار کلاس}
 		\end{center}
 	\end{figure}
 \end{document}
