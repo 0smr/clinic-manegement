@@ -28,5 +28,29 @@ namespace ClinicMangement
         {
             System.Environment.Exit(0);
         }
+
+        private void افزودننوعکارمندToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form f = new AddEmployesType();
+            f.ShowDialog();
+        }
+
+        private void افزودنکارمندToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form f = new AddEmployes();
+            f.ShowDialog();
+        }
+
+        private void افزودنبیمهToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form f = new AddDarmanType();
+            f.ShowDialog();
+        }
+
+        private void انواعدرمانToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form f = new AddInsurance();
+            f.ShowDialog();
+        }
     }
 }

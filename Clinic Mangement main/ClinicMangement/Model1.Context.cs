@@ -48,5 +48,39 @@ namespace ClinicMangement
         {
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<FetchInsurance_Result>("FetchInsurance");
         }
+    
+        public virtual int InsertDarmanType(string darmanname)
+        {
+            var darmannameParameter = darmanname != null ?
+                new ObjectParameter("darmanname", darmanname) :
+                new ObjectParameter("darmanname", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("InsertDarmanType", darmannameParameter);
+        }
+    
+        public virtual int InsertEmpeloyes(Nullable<int> employsType, string employName, string employLname, Nullable<int> phoneNumber, string adrress)
+        {
+            var employsTypeParameter = employsType.HasValue ?
+                new ObjectParameter("EmploysType", employsType) :
+                new ObjectParameter("EmploysType", typeof(int));
+    
+            var employNameParameter = employName != null ?
+                new ObjectParameter("EmployName", employName) :
+                new ObjectParameter("EmployName", typeof(string));
+    
+            var employLnameParameter = employLname != null ?
+                new ObjectParameter("EmployLname", employLname) :
+                new ObjectParameter("EmployLname", typeof(string));
+    
+            var phoneNumberParameter = phoneNumber.HasValue ?
+                new ObjectParameter("PhoneNumber", phoneNumber) :
+                new ObjectParameter("PhoneNumber", typeof(int));
+    
+            var adrressParameter = adrress != null ?
+                new ObjectParameter("Adrress", adrress) :
+                new ObjectParameter("Adrress", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("InsertEmpeloyes", employsTypeParameter, employNameParameter, employLnameParameter, phoneNumberParameter, adrressParameter);
+        }
     }
 }
