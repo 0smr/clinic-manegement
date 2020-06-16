@@ -30,8 +30,7 @@ namespace Clinic_Management_website.Controllers
                         var user = db_User.Patients.Where(u => u.lname == model.userName && u.NCode == model.password).FirstOrDefault();
                         if(user != null)
                         {
-                            ViewBag.message = "شما با موفقیت وارد شدید";
-
+                            Session["message"] = "شما با موفقیت وارد شدید";
                             Session["user"] = user;
                             return RedirectToAction("Index", "Home");
                         }

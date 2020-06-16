@@ -13,7 +13,24 @@ namespace Clinic_Management_website.Controllers
     {
         public ActionResult Index()
         {
-            Patient p = Session["user"];
+            Patient p = (Patient)Session["user"];
+            ViewBag.message = (String)Session["message"];
+            using (ClinicMangementEntities db_User = new ClinicMangementEntities())
+            {
+                try
+                {
+                    var visit = db_User.Visits.Where(u => u.PatientId == p.id).FirstOrDefault();
+                    if (visit != null)
+                    {
+                        ViewBag.date = visit.Date.ToString();
+                        return View(p);
+                    }
+                }
+                catch(Exception)
+                {
+
+                }
+            }
             return View(p);
         }
 

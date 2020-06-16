@@ -6,14 +6,18 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="row">
-    <div class="col-md-4">
+<div class="row" dir="ltr">
 
+    <div class="col-md-4">
+        @Model.name<br />
+        @Model.lname
     </div>
     <div class="col-md-4">
-
+        یک وقت گرفته شده در تاریخ:
+        <br />
+        @ViewBag.date
     </div>
-    <div class="col-md-4">
-
+    <div class="alert alert-success" role="alert">
+        @ViewBag.message
     </div>
 </div>
