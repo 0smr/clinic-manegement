@@ -46,20 +46,20 @@
             this.افزودنToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.گزارشToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.تنضیماتToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.خروجToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panelEx = new DevComponents.DotNetBar.PanelEx();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridViewXInsu = new DevComponents.DotNetBar.Controls.DataGridViewX();
             this.dataGridViewXEmp = new DevComponents.DotNetBar.Controls.DataGridViewX();
-            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Iname = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DarmanName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Percentage = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lname = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Ename = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Address = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.خروجToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Iname = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DarmanName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Percentage = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.menuStrip1.SuspendLayout();
             this.panelEx.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewXInsu)).BeginInit();
@@ -99,24 +99,28 @@
             this.افزودننوعکارمندToolStripMenuItem.Name = "افزودننوعکارمندToolStripMenuItem";
             this.افزودننوعکارمندToolStripMenuItem.Size = new System.Drawing.Size(140, 28);
             this.افزودننوعکارمندToolStripMenuItem.Text = " نوع کارمند";
+            this.افزودننوعکارمندToolStripMenuItem.Click += new System.EventHandler(this.افزودننوعکارمندToolStripMenuItem_Click);
             // 
             // افزودنکارمندToolStripMenuItem
             // 
             this.افزودنکارمندToolStripMenuItem.Name = "افزودنکارمندToolStripMenuItem";
             this.افزودنکارمندToolStripMenuItem.Size = new System.Drawing.Size(140, 28);
             this.افزودنکارمندToolStripMenuItem.Text = " کارمند";
+            this.افزودنکارمندToolStripMenuItem.Click += new System.EventHandler(this.افزودنکارمندToolStripMenuItem_Click);
             // 
             // افزودنبیمهToolStripMenuItem
             // 
             this.افزودنبیمهToolStripMenuItem.Name = "افزودنبیمهToolStripMenuItem";
             this.افزودنبیمهToolStripMenuItem.Size = new System.Drawing.Size(140, 28);
             this.افزودنبیمهToolStripMenuItem.Text = "نوع درمان";
+            this.افزودنبیمهToolStripMenuItem.Click += new System.EventHandler(this.افزودنبیمهToolStripMenuItem_Click);
             // 
             // انواعدرمانToolStripMenuItem
             // 
             this.انواعدرمانToolStripMenuItem.Name = "انواعدرمانToolStripMenuItem";
             this.انواعدرمانToolStripMenuItem.Size = new System.Drawing.Size(140, 28);
             this.انواعدرمانToolStripMenuItem.Text = " بیمه";
+            this.انواعدرمانToolStripMenuItem.Click += new System.EventHandler(this.انواعدرمانToolStripMenuItem_Click);
             // 
             // افزودنبیمارToolStripMenuItem
             // 
@@ -185,6 +189,13 @@
             this.تنضیماتToolStripMenuItem.Name = "تنضیماتToolStripMenuItem";
             this.تنضیماتToolStripMenuItem.Size = new System.Drawing.Size(70, 27);
             this.تنضیماتToolStripMenuItem.Text = "تنضیمات";
+            // 
+            // خروجToolStripMenuItem
+            // 
+            this.خروجToolStripMenuItem.Name = "خروجToolStripMenuItem";
+            this.خروجToolStripMenuItem.Size = new System.Drawing.Size(52, 27);
+            this.خروجToolStripMenuItem.Text = "خروج";
+            this.خروجToolStripMenuItem.Click += new System.EventHandler(this.خروجToolStripMenuItem_Click);
             // 
             // panelEx
             // 
@@ -290,38 +301,6 @@
             this.dataGridViewXEmp.Size = new System.Drawing.Size(882, 190);
             this.dataGridViewXEmp.TabIndex = 0;
             // 
-            // id
-            // 
-            this.id.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.id.DataPropertyName = "id";
-            this.id.HeaderText = "شماره";
-            this.id.Name = "id";
-            this.id.ReadOnly = true;
-            // 
-            // Iname
-            // 
-            this.Iname.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Iname.DataPropertyName = "Iname";
-            this.Iname.HeaderText = "نام بیمه";
-            this.Iname.Name = "Iname";
-            this.Iname.ReadOnly = true;
-            // 
-            // DarmanName
-            // 
-            this.DarmanName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.DarmanName.DataPropertyName = "DarmanName";
-            this.DarmanName.HeaderText = "نام درمان";
-            this.DarmanName.Name = "DarmanName";
-            this.DarmanName.ReadOnly = true;
-            // 
-            // Percentage
-            // 
-            this.Percentage.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Percentage.DataPropertyName = "Percentage";
-            this.Percentage.HeaderText = "درصد";
-            this.Percentage.Name = "Percentage";
-            this.Percentage.ReadOnly = true;
-            // 
             // name
             // 
             this.name.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
@@ -354,12 +333,37 @@
             this.Address.Name = "Address";
             this.Address.ReadOnly = true;
             // 
-            // خروجToolStripMenuItem
+            // id
             // 
-            this.خروجToolStripMenuItem.Name = "خروجToolStripMenuItem";
-            this.خروجToolStripMenuItem.Size = new System.Drawing.Size(52, 27);
-            this.خروجToolStripMenuItem.Text = "خروج";
-            this.خروجToolStripMenuItem.Click += new System.EventHandler(this.خروجToolStripMenuItem_Click);
+            this.id.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.id.DataPropertyName = "id";
+            this.id.HeaderText = "شماره";
+            this.id.Name = "id";
+            this.id.ReadOnly = true;
+            // 
+            // Iname
+            // 
+            this.Iname.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Iname.DataPropertyName = "Iname";
+            this.Iname.HeaderText = "نام بیمه";
+            this.Iname.Name = "Iname";
+            this.Iname.ReadOnly = true;
+            // 
+            // DarmanName
+            // 
+            this.DarmanName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.DarmanName.DataPropertyName = "DarmanName";
+            this.DarmanName.HeaderText = "نوع درمان";
+            this.DarmanName.Name = "DarmanName";
+            this.DarmanName.ReadOnly = true;
+            // 
+            // Percentage
+            // 
+            this.Percentage.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Percentage.DataPropertyName = "Percentage";
+            this.Percentage.HeaderText = "درصد";
+            this.Percentage.Name = "Percentage";
+            this.Percentage.ReadOnly = true;
             // 
             // MainAdmin
             // 
@@ -410,14 +414,14 @@
         private System.Windows.Forms.Label label1;
         private DevComponents.DotNetBar.Controls.DataGridViewX dataGridViewXInsu;
         private DevComponents.DotNetBar.Controls.DataGridViewX dataGridViewXEmp;
-        private System.Windows.Forms.DataGridViewTextBoxColumn id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Iname;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DarmanName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Percentage;
         private System.Windows.Forms.DataGridViewTextBoxColumn name;
         private System.Windows.Forms.DataGridViewTextBoxColumn lname;
         private System.Windows.Forms.DataGridViewTextBoxColumn Ename;
         private System.Windows.Forms.DataGridViewTextBoxColumn Address;
         private System.Windows.Forms.ToolStripMenuItem خروجToolStripMenuItem;
+        private System.Windows.Forms.DataGridViewTextBoxColumn id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Iname;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DarmanName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Percentage;
     }
 }

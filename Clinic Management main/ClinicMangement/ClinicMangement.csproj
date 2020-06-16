@@ -55,6 +55,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\UserPage\AddPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UserPage\AddPatient.Designer.cs">
+      <DependentUpon>AddPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MangementPage\AddInsurance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MangementPage\AddInsurance.Designer.cs">
+      <DependentUpon>AddInsurance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MangementPage\AddDarmanType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MangementPage\AddDarmanType.Designer.cs">
+      <DependentUpon>AddDarmanType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MangementPage\AddEmployes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MangementPage\AddEmployes.Designer.cs">
+      <DependentUpon>AddEmployes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MangementPage\AddEmployesType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MangementPage\AddEmployesType.Designer.cs">
+      <DependentUpon>AddEmployesType.cs</DependentUpon>
+    </Compile>
     <Compile Include="CallTheRoll.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -109,11 +139,35 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Model1.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Forms\UserPage\NormalAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UserPage\NormalAdd.Designer.cs">
+      <DependentUpon>NormalAdd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Patient.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Forms\UserPage\QuickAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UserPage\QuickAdd.Designer.cs">
+      <DependentUpon>QuickAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserPage\ReportDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UserPage\ReportDoctor.Designer.cs">
+      <DependentUpon>ReportDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserPage\ReportPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UserPage\ReportPatient.Designer.cs">
+      <DependentUpon>ReportPatient.cs</DependentUpon>
+    </Compile>
     <Compile Include="RootUser.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -126,14 +180,32 @@
     <Compile Include="Visit.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Forms\MangementPage\AddInsurance.resx">
+      <DependentUpon>AddInsurance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MangementPage\AddDarmanType.resx">
+      <DependentUpon>AddDarmanType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MangementPage\AddEmployes.resx">
+      <DependentUpon>AddEmployes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\LogIn.resx">
       <DependentUpon>LogIn.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MangementPage\AddEmployesType.resx">
+      <DependentUpon>AddEmployesType.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\MangementPage\MainAdmin.resx">
       <DependentUpon>MainAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserPage\AddPatient.resx">
+      <DependentUpon>AddPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserPage\NormalAdd.resx">
+      <DependentUpon>NormalAdd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -144,6 +216,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Forms\UserPage\QuickAdd.resx">
+      <DependentUpon>QuickAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserPage\ReportDoctor.resx">
+      <DependentUpon>ReportDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserPage\ReportPatient.resx">
+      <DependentUpon>ReportPatient.cs</DependentUpon>
+    </EmbeddedResource>
     <EntityDeploy Include="Model1.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Model1.Designer.cs</LastGenOutput>

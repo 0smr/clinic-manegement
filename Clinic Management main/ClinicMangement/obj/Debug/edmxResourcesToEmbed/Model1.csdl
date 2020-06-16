@@ -218,6 +218,16 @@
     </AssociationSet>
     <FunctionImport Name="FetchEmployes" ReturnType="Collection(ClinicMangementModel.FetchEmployes_Result)" />
     <FunctionImport Name="FetchInsurance" ReturnType="Collection(ClinicMangementModel.FetchInsurance_Result)" />
+    <FunctionImport Name="InsertDarmanType">
+      <Parameter Name="darmanname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="InsertEmpeloyes">
+      <Parameter Name="EmploysType" Mode="In" Type="Int32" />
+      <Parameter Name="EmployName" Mode="In" Type="String" />
+      <Parameter Name="EmployLname" Mode="In" Type="String" />
+      <Parameter Name="PhoneNumber" Mode="In" Type="Int32" />
+      <Parameter Name="Adrress" Mode="In" Type="String" />
+    </FunctionImport>
   </EntityContainer>
   <ComplexType Name="FetchEmployes_Result">
     <Property Type="String" Name="name" Nullable="false" MaxLength="50" />

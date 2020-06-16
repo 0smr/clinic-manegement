@@ -171,6 +171,16 @@
   </Association>
   <Function Name="FetchEmployes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
   <Function Name="FetchInsurance" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="InsertDarmanType" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="darmanname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="InsertEmpeloyes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EmploysType" Type="int" Mode="In" />
+    <Parameter Name="EmployName" Type="nvarchar" Mode="In" />
+    <Parameter Name="EmployLname" Type="nvarchar" Mode="In" />
+    <Parameter Name="PhoneNumber" Type="int" Mode="In" />
+    <Parameter Name="Adrress" Type="nvarchar" Mode="In" />
+  </Function>
   <EntityContainer Name="ClinicMangementModelStoreContainer">
     <EntitySet Name="CallTheRoll" EntityType="Self.CallTheRoll" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="DarmanType" EntityType="Self.DarmanType" Schema="dbo" store:Type="Tables" />

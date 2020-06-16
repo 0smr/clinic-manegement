@@ -31,3 +31,12 @@ C:\Users\Vsadrnia\Desktop\clinic-manegement\Clinic Mangement main\ClinicMangemen
 C:\Users\Vsadrnia\Desktop\clinic-manegement\Clinic Mangement main\ClinicMangement\bin\Debug\DevComponents.DotNetBar2.xml
 C:\Users\Vsadrnia\Desktop\clinic-manegement\Clinic Mangement main\ClinicMangement\obj\Debug\ClinicMangement.Main.resources
 C:\Users\Vsadrnia\Desktop\clinic-manegement\Clinic Mangement main\ClinicMangement\obj\Debug\ClinicMangement.MainAdmin.resources
+C:\Users\Vsadrnia\Desktop\clinic-manegement\Clinic Mangement main\ClinicMangement\obj\Debug\ClinicMangement.AddEmployesType.resources
+C:\Users\Vsadrnia\Desktop\clinic-manegement\Clinic Mangement main\ClinicMangement\obj\Debug\ClinicMangement.AddEmployes.resources
+C:\Users\Vsadrnia\Desktop\clinic-manegement\Clinic Mangement main\ClinicMangement\obj\Debug\ClinicMangement.AddInsurance.resources
+C:\Users\Vsadrnia\Desktop\clinic-manegement\Clinic Mangement main\ClinicMangement\obj\Debug\ClinicMangement.AddDarmanType.resources
+C:\Users\Vsadrnia\Desktop\clinic-manegement\Clinic Mangement main\ClinicMangement\obj\Debug\ClinicMangement.AddPatient.resources
+C:\Users\Vsadrnia\Desktop\clinic-manegement\Clinic Mangement main\ClinicMangement\obj\Debug\ClinicMangement.QuickAdd.resources
+C:\Users\Vsadrnia\Desktop\clinic-manegement\Clinic Mangement main\ClinicMangement\obj\Debug\ClinicMangement.NormalAdd.resources
+C:\Users\Vsadrnia\Desktop\clinic-manegement\Clinic Mangement main\ClinicMangement\obj\Debug\ClinicMangement.ReportPatient.resources
+C:\Users\Vsadrnia\Desktop\clinic-manegement\Clinic Mangement main\ClinicMangement\obj\Debug\ClinicMangement.ReportDoctor.resources

@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="ClinicMangementModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="ClinicMangementModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="CallTheRoll">
           <Key>
             <PropertyRef Name="id" />
@@ -176,6 +176,16 @@
         </Association>
         <Function Name="FetchEmployes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
         <Function Name="FetchInsurance" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="InsertDarmanType" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="darmanname" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="InsertEmpeloyes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="EmploysType" Type="int" Mode="In" />
+          <Parameter Name="EmployName" Type="nvarchar" Mode="In" />
+          <Parameter Name="EmployLname" Type="nvarchar" Mode="In" />
+          <Parameter Name="PhoneNumber" Type="int" Mode="In" />
+          <Parameter Name="Adrress" Type="nvarchar" Mode="In" />
+        </Function>
         <EntityContainer Name="ClinicMangementModelStoreContainer">
           <EntitySet Name="CallTheRoll" EntityType="Self.CallTheRoll" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="DarmanType" EntityType="Self.DarmanType" Schema="dbo" store:Type="Tables" />
@@ -212,8 +222,7 @@
             <End Role="Visit" EntitySet="Visit" />
           </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="ClinicMangementModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -435,6 +444,16 @@
           </AssociationSet>
           <FunctionImport Name="FetchEmployes" ReturnType="Collection(ClinicMangementModel.FetchEmployes_Result)" />
           <FunctionImport Name="FetchInsurance" ReturnType="Collection(ClinicMangementModel.FetchInsurance_Result)" />
+          <FunctionImport Name="InsertDarmanType">
+          <Parameter Name="darmanname" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="InsertEmpeloyes">
+            <Parameter Name="EmploysType" Mode="In" Type="Int32" />
+            <Parameter Name="EmployName" Mode="In" Type="String" />
+            <Parameter Name="EmployLname" Mode="In" Type="String" />
+            <Parameter Name="PhoneNumber" Mode="In" Type="Int32" />
+            <Parameter Name="Adrress" Mode="In" Type="String" />
+          </FunctionImport>
         </EntityContainer>
         <ComplexType Name="FetchEmployes_Result">
           <Property Type="String" Name="name" Nullable="false" MaxLength="50" />
@@ -581,6 +600,8 @@
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="InsertDarmanType" FunctionName="ClinicMangementModel.Store.InsertDarmanType" />
+          <FunctionImportMapping FunctionImportName="InsertEmpeloyes" FunctionName="ClinicMangementModel.Store.InsertEmpeloyes" />
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>
