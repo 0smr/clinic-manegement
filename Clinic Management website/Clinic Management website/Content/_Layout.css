@@ -1,0 +1,80 @@
+﻿body {
+    font-family: vazir;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, #00000000, #000000bf, #00000000);
+}
+
+.navbar {
+    background-color: #44484b;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: transparent;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(7, 161, 189,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#header {
+    background-color: #CEF8FF;
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+#body {
+    position: relative;
+    top: auto;
+    left: 0;
+}
+
+#content {
+    height: auto;
+    min-height: 500px;
+}
+
+#sidebar {
+    height: auto;
+    padding: 0px;
+    background-color: #44484b;
+}
+
+#menu {
+    margin: 0px;
+    padding: 0px;
+    background-color: #44484b;
+}
+
+#menu li {
+    display: block;
+    background-color: #44484b;
+    width: 100%;
+    padding-top:15px;
+    text-align: center;
+    height: 65px;
+    line-height:inherit;
+}
+#menu li .btn
+{    
+    color: #07a1bd;
+}
+
+#menu li:hover{
+    background-color: #07a1bd;
+}
+#menu li:hover .btn{
+    color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+    #header-logo {
+        height: 200px;
+        width: 200px;
+    }
+}

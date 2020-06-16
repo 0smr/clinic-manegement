@@ -1,0 +1,39 @@
+.SC-scrollbar {
+    background: #fff;
+    overflow-y: scroll;
+}
+
+.SC-scrollbar-primary::-webkit-scrollbar {
+    height: 6px;
+    background-color: #F5F5F5;
+}
+
+.SC-scrollbar-primary::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px #0000001a;
+    background-image: -webkit-gradient(linear, left top, right top, from(#CEF8FF), to(#07a1bd));
+    background-image: -webkit-linear-gradient(left, #CEF8FF 0%, #07a1bd 100%);
+    background-image: linear-gradient(to right, #CEF8FF 0%, #07a1bd 100%);
+}
+
+.SC-scrollbar-primary {
+    scrollbar-color: #07a1bd #F5F5F5;
+}
+
+.SC-items {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+#SC-table {
+    min-width: 1100px;
+    float: none;
+}
+
+@media screen and (max-width: 767px) {
+    .SC-items {
+        font-size: 90%;
+    }
+    #SC-table {
+        min-width: 767px;
+    }
+}

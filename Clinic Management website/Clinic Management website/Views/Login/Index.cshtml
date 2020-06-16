@@ -1,0 +1,42 @@
+﻿@model Clinic_Management_website.Models.loginUserPass
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <script type="text/javascript" src="~/Scripts/jquery-3.0.0.slim.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="~/images/icon.png">
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" />
+
+
+</head>
+<body dir="rtl">
+    <div class="container ">
+        <div class="row justify-content-center">
+            <div id="login-body" class="col-10 col-sm-9 col-md-7 col-lg-5 col-xl-4">
+                <div class="shadow rounded-lg overflow-hidden">
+                    <div id="top_login" class="text-center p-2">
+                        <img src="~/images/icon.png" style="width:120px; height:120px;" />
+                        <p class="font-weight-bold p-2">کلینیک</p>
+                    </div>
+                    @using (Html.BeginForm("Index", "Login", FormMethod.Post, new { @class = "p-3" }))
+                    {
+                        @Html.TextBoxFor(x => x.userName, new { @class = "form-control", @placeholder = "کلمه عبور", required = "required" })<br />
+                        @Html.PasswordFor(x => x.password, new { @class = "form-control", @placeholder = "رمز عبور", required = "required" })<br />
+                        <input id="login-btn" class="btn btn-block rounded-pill text-center mt-5 pl-3 pr-3" type="submit" value="ورود" />
+                    }
+                </div>
+                <p class="mt-5 mb-3 text-muted">&copy; 2019-2020</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
