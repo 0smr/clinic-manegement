@@ -237,7 +237,10 @@
 			3- انجام محاسبات سنگین امور مالی.
 				}} \\
 			\hline
-		\end{tabularx}		
+		\end{tabularx}
+		\caption{
+		مدیریت مالی}		
+		\label{table1:sec5:chap1}
 	\end{table}
 
 	\begin{table}[h]
@@ -264,7 +267,10 @@
 			2- ثبت زمان دقیق ورود و خروج کارکنان.\\
 			}} \\
 			\hline
-		\end{tabularx}		
+		\end{tabularx}	
+		\caption{
+			حضور غیاب}		
+		\label{table2:sec5:chap1}	
 	\end{table}
 
 	\pagebreak
@@ -279,7 +285,7 @@
 			& \multicolumn{1}{|l|}{\lr{\textbf{Priority:}}}
 			& \multicolumn{1}{|l|}{\lr{\textbf{Estimate:}}}\\
 			\rowcolor{rowBlue}
-			حضور غیاب& 1 & 3 هفته\\
+			ثبت اطلاعات & 1 & 3 هفته\\
 			\hline
 			\multicolumn{3}{|l|}{\lr{User Story:}} \\
 			\multicolumn{3}{|p{0cm}|}{\makecell[r]{
@@ -295,6 +301,9 @@
 			}} \\
 			\hline
 		\end{tabularx}		
+		\caption{
+			ثبت اطلاعات بیماران}		
+		\label{table4:sec5:chap1}
 	\end{table}
 
 	\begin{table}[h]
@@ -322,7 +331,10 @@
 			3- نوبت دهی بدون  نیاز به مراجعه بیمار.\\
 			}} \\
 			\hline
-		\end{tabularx}		
+		\end{tabularx}	
+		\caption{
+			نوبت دهی آنلاین}		
+		\label{table5:sec5:chap1}	
 	\end{table}
 
 \pagebreak
@@ -350,7 +362,10 @@
 			1- دقت در پذیرش بیماران با بیمه معتبر.\\
 			}} \\
 			\hline
-		\end{tabularx}		
+		\end{tabularx}	
+		\caption{
+			گزارش گیری صحت بیمه}		
+		\label{table6:sec5:chap1}	
 	\end{table}
 
 	\begin{table}[h]
@@ -376,7 +391,10 @@
 			1- سهولت در انجام تحویل گزارشات بیمار.\\
 			}} \\
 			\hline
-		\end{tabularx}		
+		\end{tabularx}	
+		\caption{
+			ارائه گزارشات به بیمار}		
+		\label{table7:sec5:chap1}	
 	\end{table}
 
 \pagebreak
@@ -405,7 +423,10 @@
 			2 -صرفه جویی در زمان پیرو تاخیر بیمار و اتفاقات پیش‌بینی نشده.\\
 			}} \\
 			\hline
-		\end{tabularx}		
+		\end{tabularx}	
+		\caption{
+			ایجاد بخش اطلاع رسانی}		
+		\label{table8:sec5:chap1}	
 	\end{table}
 
 	\pagebreak
@@ -479,7 +500,8 @@
 	\chapter{
 	مستندات پیاده سازی}
 	\label{chp2}
-این فصل در مورد مستندات پیاده سازی، که شامل بخش‌های زیر است.
+	\noindent
+	این فصل در مورد مستندات پیاده سازی، که شامل بخش‌های زیر است.
 	\begin{itemize}
 		\item 
 		نمودار کاربرد، برای درک بهتر ارتباطات میان اجزاء سیستم.
@@ -490,6 +512,14 @@
 		\item
 		نمودار کلاس،‌ یک نمودار برای درک بهتر معماری و ساختار برنامه.
 	\end{itemize}
+
+	کد نرم‌افزار تحت مجوز 
+	\lr{LGPLv3}
+	در 
+	\lr{Github}
+	قرار دارد که می‌توانید از لینک زیر آن را مشاهده کنید. 
+	
+	\url{https://github.com/SMR76/clinic-manegement}
 	\pagebreak
 	\section{
 		نمودار 
@@ -532,7 +562,8 @@
 		رابط کاربری}
 	\label{chp3}
 	\section{
-	رابط کاربری دسکتاپ (پیشنهادی)}\label{sec1:chap3}
+	رابط کاربری دسکتاپ (پیشنهادی)
+	}\label{sec1:chap3}
 
 	\begin{figure}[!h]
 		\label{fig1:sec1:chap3}
@@ -542,6 +573,43 @@
 			رابط کاربری طراحی شده برای نسخه دسکتاپ (هنوز اجرایی نشده)
 			}
 		\end{center}
+	\end{figure}
+
+	\section{
+		رابط کاربری دسکتاپ (پیشنهادی)
+	}\label{sec2:chap3}
+	
+	\begin{figure}[!h]
+		\centering
+		\begin{subfigure}[t]{0.3\linewidth}
+			\includegraphics[width=0.9\textwidth]{UI/Desktop_UI_1.png}
+		\end{subfigure}
+		\begin{subfigure}[t]{0.3\linewidth}
+			\includegraphics[width=0.9\textwidth]{UI/Desktop_UI_2.PNG}
+		\end{subfigure}
+		\begin{subfigure}[t]{0.3\linewidth}
+			\includegraphics[width=0.9\textwidth]{UI/Desktop_UI_3.PNG}
+		\end{subfigure}
+		\par\bigskip
+		\vspace*{3mm}		
+		\begin{subfigure}[t]{0.3\linewidth}
+			\includegraphics[width=0.9\textwidth]{UI/Desktop_UI_4.png}
+		\end{subfigure}
+		\begin{subfigure}[t]{0.3\linewidth}
+			\includegraphics[width=0.9\textwidth]{UI/Desktop_UI_5.PNG}
+		\end{subfigure}
+		\begin{subfigure}[t]{0.3\linewidth}
+			\includegraphics[width=0.9\textwidth]{UI/Desktop_UI_6.PNG}
+		\end{subfigure}
+		\par\bigskip
+		\vspace*{3mm}		
+		\begin{subfigure}[t]{0.6\linewidth}
+			\includegraphics[width=0.9\textwidth]{UI/Desktop_UI_7.PNG}
+		\end{subfigure}
+		\label{fig1:sec2:chap3}
+		\caption{
+			رابط کاربری کنونی برای دسکتاپ
+		}
 	\end{figure}
 	
 \end{document}

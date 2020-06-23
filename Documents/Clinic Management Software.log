@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.3.31)  23 JUN 2020 08:26
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.3.31)  23 JUN 2020 22:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1712,62 +1712,71 @@ Overfull \hbox (160.35939pt too wide) in paragraph at lines 240--240
  []
 
 
-Overfull \hbox (338.17384pt too wide) in paragraph at lines 267--267
+Overfull \hbox (338.17384pt too wide) in paragraph at lines 270--270
 [][][]| []
  []
 
 
-Overfull \hbox (164.8008pt too wide) in paragraph at lines 267--267
+Overfull \hbox (164.8008pt too wide) in paragraph at lines 270--270
 [][][]| []
  []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 [4]
-Overfull \hbox (172.15431pt too wide) in paragraph at lines 297--297
+Overfull \hbox (172.15431pt too wide) in paragraph at lines 303--303
 [][][]| []
  []
 
 
-Overfull \hbox (349.38283pt too wide) in paragraph at lines 297--297
+Overfull \hbox (349.38283pt too wide) in paragraph at lines 303--303
 [][][]| []
  []
 
 
-Overfull \hbox (335.58986pt too wide) in paragraph at lines 325--325
+Overfull \hbox (335.58986pt too wide) in paragraph at lines 334--334
 [][][]| []
  []
 
 
-Overfull \hbox (158.91212pt too wide) in paragraph at lines 325--325
+Overfull \hbox (158.91212pt too wide) in paragraph at lines 334--334
 [][][]| []
  []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 [5]
-Overfull \hbox (169.459pt too wide) in paragraph at lines 353--353
+Overfull \hbox (169.459pt too wide) in paragraph at lines 365--365
 [][][]| []
  []
 
 
-Overfull \hbox (159.07619pt too wide) in paragraph at lines 353--353
+Overfull \hbox (159.07619pt too wide) in paragraph at lines 365--365
 [][][]| []
  []
 
 
-Overfull \hbox (228.1172pt too wide) in paragraph at lines 379--379
+Overfull \hbox (228.1172pt too wide) in paragraph at lines 394--394
 [][][]| []
  []
 
 
-Overfull \hbox (167.53712pt too wide) in paragraph at lines 379--379
+Overfull \hbox (167.53712pt too wide) in paragraph at lines 394--394
 [][][]| []
  []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 [6]
-Overfull \hbox (187.10744pt too wide) in paragraph at lines 408--408
+Overfull \hbox (187.10744pt too wide) in paragraph at lines 426--426
 [][][]| []
  []
 
 
-Overfull \hbox (260.83595pt too wide) in paragraph at lines 408--408
+Overfull \hbox (260.83595pt too wide) in paragraph at lines 426--426
 [][][]| []
  []
 
@@ -1795,7 +1804,7 @@ File: diagrams/useCase.pdf Graphic file (type pdf)
 <use diagrams/useCase.pdf>
 LaTeX Font Info:    Font shape `TU/XBYas(1)/m/sl' in size <12> not available
 (Font)              Font shape `TU/XBYas(1)/m/it' tried instead on input line 5
-07.
+37.
  [12]
 File: diagrams/ERD.pdf Graphic file (type pdf)
 <use diagrams/ERD.pdf>
@@ -1805,25 +1814,43 @@ File: diagrams/classDiagram.pdf Graphic file (type pdf)
 فصل 3.
 File: UI/Desktop-UI.pdf Graphic file (type pdf)
 <use UI/Desktop-UI.pdf>
+File: UI/Desktop_UI_1.png Graphic file (type bmp)
+<UI/Desktop_UI_1.png>
+File: UI/Desktop_UI_2.PNG Graphic file (type bmp)
+<UI/Desktop_UI_2.PNG>
+File: UI/Desktop_UI_3.PNG Graphic file (type bmp)
+<UI/Desktop_UI_3.PNG>
+File: UI/Desktop_UI_4.png Graphic file (type bmp)
+<UI/Desktop_UI_4.png>
+File: UI/Desktop_UI_5.PNG Graphic file (type bmp)
+<UI/Desktop_UI_5.PNG>
+File: UI/Desktop_UI_6.PNG Graphic file (type bmp)
+<UI/Desktop_UI_6.PNG>
+File: UI/Desktop_UI_7.PNG Graphic file (type bmp)
+<UI/Desktop_UI_7.PNG>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 [14
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 547.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 547.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 615.
+ [15]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 615.
  (./Clinic Management Software.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 547.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 547.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 615.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 615.
 Package rerunfilecheck Info: File `"Clinic Management Software".out' has not ch
 anged.
 (rerunfilecheck)             Checksum: .
  ) 
 Here is how much of TeX's memory you used:
- 40022 strings out of 492922
- 802143 string characters out of 6136751
- 1088407 words of memory out of 5000000
- 43418 multiletter control sequences out of 15000+600000
- 601021 words of font info for 132 fonts, out of 8000000 for 9000
+ 40065 strings out of 492922
+ 802984 string characters out of 6136751
+ 1091995 words of memory out of 5000000
+ 43450 multiletter control sequences out of 15000+600000
+ 601029 words of font info for 133 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  54i,23n,97p,4822b,623s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Clinic Management Software.pdf (18 pages).
+Output written on Clinic Management Software.pdf (19 pages).
