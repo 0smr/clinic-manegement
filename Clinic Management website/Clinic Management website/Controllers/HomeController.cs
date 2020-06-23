@@ -31,7 +31,29 @@ namespace Clinic_Management_website.Controllers
 
                 }
             }
-            return View(p);
+            return View();
+        }
+
+        public ActionResult DoctorList()
+        {
+            using (ClinicMangementEntities db_User = new ClinicMangementEntities())
+            {
+                try
+                {
+                    var doctorList = db_User.Employes.ToList();
+                    if (doctorList.ToArray().Length > 0)
+                    {
+                        ViewBag.countEm = doctorList.ToArray().Length;
+                        return View(doctorList);
+                    }
+                    ViewBag.countEm = 0;
+                }
+                catch (Exception)
+                {
+
+                }
+            }
+            return View();
         }
 
         public ActionResult About()

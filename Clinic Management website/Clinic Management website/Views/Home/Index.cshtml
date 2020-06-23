@@ -1,23 +1,44 @@
 ﻿@section include{
-    @model Clinic_Management_website.Database.Patient  
+    @model Clinic_Management_website.Database.Patient
 }
 
 @{
     ViewBag.Title = "Home Page";
 }
 
-<div class="row" dir="ltr">
+<div class="row">
+    <table class="table">
+        <tr>
+            <th>
+                نام
+            </th>
+            <th>
+                نام خانوادگی
+            </th>
+            <th>
+                تاریخ وقت گرفته شده
+            </th>
+        </tr>
 
+        @if (Model != null)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(Model => Model.name)
+                </td>
+                <td>
+                    @Html.DisplayFor(Model => Model.lname)
+                </td>
+                <td>
+                    @ViewBag.date
+                </td>
+            </tr>
+        }
+    </table>
     <div class="col-md-4">
-        @Model.name<br />
-        @Model.lname
+        <div class="alert alert-info" role="alert">
+            @ViewBag.message
+        </div>
     </div>
-    <div class="col-md-4">
-        یک وقت گرفته شده در تاریخ:
-        <br />
-        @ViewBag.date
-    </div>
-    <div class="alert alert-success" role="alert">
-        @ViewBag.message
-    </div>
+
 </div>

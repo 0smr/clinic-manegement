@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Clinic_Management_website.Database.Employe>
+
+@{
+    ViewBag.Title = "DoctorList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>DoctorList</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("نام")
+        </th>
+        <th>
+            @Html.DisplayName("نام خانوادگی")
+        </th>
+        <th>
+            @Html.DisplayName("شماره تماس")
+        </th>
+        <th>
+            @Html.DisplayName("آدرس")
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.lname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PhoneNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Address)
+        </td>
+    </tr>
+}
+
+</table>
