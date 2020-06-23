@@ -5,9 +5,12 @@
 \BOOKMARK [2][-]{subsection.1.3.1}{پیاده سازی سیستم}{section.1.3}% 5
 \BOOKMARK [2][-]{subsection.1.3.2}{استقرار در محیط}{section.1.3}% 6
 \BOOKMARK [1][-]{section.1.4}{تخمین هزینه}{chapter.1}% 7
-\BOOKMARK [1][-]{section.1.5}{تخمین زمان}{chapter.1}% 8
-\BOOKMARK [1][-]{section.1.6}{ نمودار BPMN}{chapter.1}% 9
-\BOOKMARK [0][-]{chapter.2}{ مستندات پیاده سازی}{}% 10
-\BOOKMARK [1][-]{section.2.1}{ نمودار UseCase}{chapter.2}% 11
-\BOOKMARK [1][-]{section.2.2}{ نمودار ERD}{chapter.2}% 12
-\BOOKMARK [1][-]{section.2.3}{ نمودار Class}{chapter.2}% 13
+\BOOKMARK [1][-]{section.1.5}{ داستان‌های کاربر \(سناریو کارت‌ها\) }{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.6}{تخمین زمان}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.7}{ نمودار BPMN}{chapter.1}% 10
+\BOOKMARK [0][-]{chapter.2}{ مستندات پیاده سازی}{}% 11
+\BOOKMARK [1][-]{section.2.1}{ نمودار UseCase}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.2}{ نمودار ERD}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.3}{ نمودار Class}{chapter.2}% 14
+\BOOKMARK [0][-]{chapter.3}{ رابط کاربری}{}% 15
+\BOOKMARK [1][-]{section.3.1}{ رابط کاربری دسکتاپ \(پیشنهادی\)}{chapter.3}% 16

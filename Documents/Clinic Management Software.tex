@@ -2,7 +2,6 @@
 \documentclass[a4paper,12pt]{report}
 
 \usepackage{color}
-\usepackage{xcolor}
 \usepackage{fourier}
 \usepackage{amsmath}
 \usepackage{dirtree}
@@ -13,13 +12,16 @@
 \usepackage{outlines}
 \usepackage{enumitem}
 \usepackage{fancyvrb}
+\usepackage{listings}
+\usepackage{makecell}
+\usepackage{tabularx} % for custom width table
 \usepackage{subcaption}
+\usepackage{indentfirst}
+\usepackage{lstautogobble}
+\usepackage[table]{xcolor}
 %% \usepackage[perpage]{footmisc}
 \usepackage[breakable]{tcolorbox}
 \usepackage[Bjornstrup]{fncychap}%Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
-\usepackage{indentfirst}
-\usepackage{listings}
-\usepackage{lstautogobble}
 \usepackage[colorlinks,linkcolor=blue,citecolor=red,urlcolor=blue]{hyperref}
 \tcbuselibrary{breakable, skins}
 \usepackage[logo=on,fontsize={12,18}]{xepersian}
@@ -42,14 +44,15 @@
 \deflatinfont\InTheNameOfGod[Scale=16]{Far.Symbol8}
 
 % --------------   xcolor  -------------
-\definecolor{ao}{rgb}			{0.0 , 0.5 , 0.0	}
-\definecolor{codeGreen}{rgb}	{0	 , 0.5 , 0.5	}
-\definecolor{lavendergray}{rgb}	{0.87, 0.86, 0.92	}
-\definecolor{mint}{rgb}			{0.24, 0.71, 0.54	}
-\definecolor{aliceblue}{rgb}	{0.94, 0.97, 1.0	}
-\definecolor{commentGreen}{rgb}	{0.13, 0.65, 0.47	}
-\definecolor{steelBlue}{rgb}	{0.00, 0.00, 0.50	}
-\definecolor{stringGreen}{rgb}	{0	 , 0.5 , 0		}
+\definecolor{ao}{rgb}			{0.00, 0.50, 0.00}
+\definecolor{codeGreen}{rgb}	{0.00, 0.50, 0.50}
+\definecolor{lavendergray}{rgb}	{0.87, 0.86, 0.92}
+\definecolor{mint}{rgb}			{0.24, 0.71, 0.54}
+\definecolor{aliceblue}{rgb}	{0.94, 0.97, 1.00}
+\definecolor{commentGreen}{rgb}	{0.13, 0.65, 0.47}
+\definecolor{steelBlue}{rgb}	{0.00, 0.00, 0.50}
+\definecolor{stringGreen}{rgb}	{0.00, 0.50, 0.00}
+\definecolor{rowBlue}{rgb}		{0.48, 0.81, 0.87}
 
 % --------------  fancyhdr -------------
 \pagestyle{fancy}
@@ -60,6 +63,9 @@
 
 %% new commonds.
 \newcommand{\lrm}[1]{\textcolor{steelBlue}{\lr{\texttt{#1}}}}
+
+%% tabular borders color 
+\arrayrulecolor{gray}
 
 \begin{document}
 	\lstset{
@@ -196,12 +202,219 @@
 		\item
 		$5$ میلیون هزینه سرور محلی.
 	\end{enumerate}
+
 	\pagebreak
-	\section{تخمین زمان}\label{sec5:chap1}
+	\section{
+		داستان‌های کاربر (سناریو کارت‌ها)		
+	}\label{sec5:chap1}
+	{
+		\footnotesize
+		\danger
+		نکته: این بخش در جهت بهبود نیاز‌مندی‌های سیستم به اسناد اضافه شده‌است.
+	}
+	\begin{table}[h]
+		\centering
+		\begin{tabularx}{\textwidth}{| X | X | X |}
+			\hline
+			
+			\rowcolor{rowBlue}
+			\multicolumn{1}{|l|}{\lr{\textbf{Title:}}}
+			 & \multicolumn{1}{|l|}{\lr{\textbf{Priority:}}}
+			 & \multicolumn{1}{|l|}{\lr{\textbf{Estimate:}}}\\
+			\rowcolor{rowBlue}
+			مدیریت مالی& 1 & 1 ماه\\
+			\hline
+			\multicolumn{3}{|l|}{\lr{User Story:}} \\
+			\multicolumn{3}{|p{0cm}|}{\makecell[r]{
+			به عنوان مدیرت مالی\\
+			درخواست ایجاد قابلیت مدیریت امور مالی درمانگاه را برای بهبود عملکرد حسابرسی دارم.
+				}} \\
+			\hline
+			\multicolumn{3}{|l|}{\lr{User Story:}} \\
+			\multicolumn{3}{|p{0cm}|}{\makecell[r]{
+			1- بهبود عملکرد حسابرسی و حسابداری.\\
+			2- سرعت بخشیدن به انجام امور مالی.\\
+			3- انجام محاسبات سنگین امور مالی.
+				}} \\
+			\hline
+		\end{tabularx}		
+	\end{table}
+
+	\begin{table}[h]
+		\centering
+		\begin{tabularx}{\textwidth}{| X | X | X |}
+			\hline
+			
+			\rowcolor{rowBlue}
+			\multicolumn{1}{|l|}{\lr{\textbf{Title:}}}
+			& \multicolumn{1}{|l|}{\lr{\textbf{Priority:}}}
+			& \multicolumn{1}{|l|}{\lr{\textbf{Estimate:}}}\\
+			\rowcolor{rowBlue}
+			حضور غیاب & 1 & 4 هفته\\
+			\hline
+			\multicolumn{3}{|l|}{\lr{User Story:}} \\
+			\multicolumn{3}{|p{0cm}|}{\makecell[r]{	
+			به عنوان بخش نگهبانی درمانگاه\\
+			درخواست ایجاد حضور غیاب کارکنان به وسیله اثر انگشت و شناسایی آنها  توسط سیستم 
+			}} \\
+			\hline
+			\multicolumn{3}{|l|}{\lr{User Story:}} \\
+			\multicolumn{3}{|p{0cm}|}{\makecell[r]{
+			1- دقت بالاتر در حضور غیاب.\\
+			2- ثبت زمان دقیق ورود و خروج کارکنان.\\
+			}} \\
+			\hline
+		\end{tabularx}		
+	\end{table}
+
+	\pagebreak
+	
+	\begin{table}[h]
+		\centering
+		\begin{tabularx}{\textwidth}{| X | X | X |}
+			\hline
+			
+			\rowcolor{rowBlue}
+			\multicolumn{1}{|l|}{\lr{\textbf{Title:}}}
+			& \multicolumn{1}{|l|}{\lr{\textbf{Priority:}}}
+			& \multicolumn{1}{|l|}{\lr{\textbf{Estimate:}}}\\
+			\rowcolor{rowBlue}
+			حضور غیاب& 1 & 3 هفته\\
+			\hline
+			\multicolumn{3}{|l|}{\lr{User Story:}} \\
+			\multicolumn{3}{|p{0cm}|}{\makecell[r]{
+			به عنوان دکتر\\
+			درخواست ایجاد یک فرم ثبت اطلاعات بیمار
+			}} \\
+			\hline
+			\multicolumn{3}{|l|}{\lr{User Story:}} \\
+			\multicolumn{3}{|p{0cm}|}{\makecell[r]{
+			1- بازیابی و مرور راحت‌تر پرونده‌های بیماران.\\
+			2- سهولت در امر ارزیابی بیمار در طول زمان.\\
+			3- ایجاد یک پایگاه داده داده جامع از اطلاعات بیماران به جهت استخراج اطلاعات آماری.
+			}} \\
+			\hline
+		\end{tabularx}		
+	\end{table}
+
+	\begin{table}[h]
+		\centering
+		\begin{tabularx}{\textwidth}{| X | X | X |}
+			\hline
+			\rowcolor{rowBlue}
+			\multicolumn{1}{|l|}{\lr{\textbf{Title:}}}		&
+			\multicolumn{1}{|l|}{\lr{\textbf{Priority:}}}	&
+			\multicolumn{1}{|l|}{\lr{\textbf{Estimate:}}}\\
+			
+			\rowcolor{rowBlue}
+			پذیرش & 1 & 3 هفته\\
+			\hline
+			\multicolumn{3}{|l|}{\lr{User Story:}} \\
+			\multicolumn{3}{|p{0cm}|}{\makecell[r]{
+			به عنوان پذیرش 
+			درخواست، ارائه پشتیبانی از نوبت دهی آنلاین و نوبت دهی الکترونیک 
+			}} \\
+			\hline
+			\multicolumn{3}{|l|}{\lr{User Story:}} \\
+			\multicolumn{3}{|p{0cm}|}{\makecell[r]{
+			1- سریع نوبت دهی بیماران.\\
+			2- سهولت در امر نوبت گیری.\\
+			3- نوبت دهی بدون  نیاز به مراجعه بیمار.\\
+			}} \\
+			\hline
+		\end{tabularx}		
+	\end{table}
+
+\pagebreak
+
+	\begin{table}[h]
+		\centering
+		\begin{tabularx}{\textwidth}{| X | X | X |}
+			\hline
+			
+			\rowcolor{rowBlue}
+			\multicolumn{1}{|l|}{\lr{\textbf{Title:}}}
+			& \multicolumn{1}{|l|}{\lr{\textbf{Priority:}}}
+			& \multicolumn{1}{|l|}{\lr{\textbf{Estimate:}}}\\
+			\rowcolor{rowBlue}
+			پذیرش بخش 2 & 2 & 3 هفته\\
+			\hline
+			\multicolumn{3}{|l|}{\lr{User Story:}} \\
+			\multicolumn{3}{|p{0cm}|}{\makecell[r]{
+			به عنوان پذیرش \\
+			درخواست، گزارش گیری صحت بیمه بیماران
+			}} \\
+			\hline
+			\multicolumn{3}{|l|}{\lr{User Story:}} \\
+			\multicolumn{3}{|p{0cm}|}{\makecell[r]{
+			1- دقت در پذیرش بیماران با بیمه معتبر.\\
+			}} \\
+			\hline
+		\end{tabularx}		
+	\end{table}
+
+	\begin{table}[h]
+		\centering
+		\begin{tabularx}{\textwidth}{| X | X | X |}
+			\hline
+			
+			\rowcolor{rowBlue}
+			\multicolumn{1}{|l|}{\lr{\textbf{Title:}}}
+			& \multicolumn{1}{|l|}{\lr{\textbf{Priority:}}}
+			& \multicolumn{1}{|l|}{\lr{\textbf{Estimate:}}}\\
+			\rowcolor{rowBlue}
+			پذیرش بخش 3& 2 & 3 هفته\\
+			\hline
+			\multicolumn{3}{|l|}{\lr{User Story:}} \\
+			\multicolumn{3}{|p{0cm}|}{\makecell[r]{
+			به عنوان بخش پذیرش\\
+			درخواست تحویل گزارشات بیمار در صورت درخواست بیمار
+			}} \\
+			\hline
+			\multicolumn{3}{|l|}{\lr{User Story:}} \\
+			\multicolumn{3}{|p{0cm}|}{\makecell[r]{
+			1- سهولت در انجام تحویل گزارشات بیمار.\\
+			}} \\
+			\hline
+		\end{tabularx}		
+	\end{table}
+
+\pagebreak
+
+	\begin{table}[h]
+		\centering
+		\begin{tabularx}{\textwidth}{| X | X | X |}
+			\hline
+			
+			\rowcolor{rowBlue}
+			\multicolumn{1}{|l|}{\lr{\textbf{Title:}}}
+			& \multicolumn{1}{|l|}{\lr{\textbf{Priority:}}}
+			& \multicolumn{1}{|l|}{\lr{\textbf{Estimate:}}}\\
+			\rowcolor{rowBlue}
+			پذیرش بخش 4& 2 & 5 هفته\\
+			\hline
+			\multicolumn{3}{|l|}{\lr{User Story:}} \\
+			\multicolumn{3}{|p{0cm}|}{\makecell[r]{
+			به عنوان بخش پذیرش\\
+			اطلاع رسانی به بیماران از طریق پیامک و سایت
+			}} \\
+			\hline
+			\multicolumn{3}{|l|}{\lr{User Story:}} \\
+			\multicolumn{3}{|p{0cm}|}{\makecell[r]{
+			1- یاد آوری بیمار جهت زمان ویزیت.\\
+			2 -صرفه جویی در زمان پیرو تاخیر بیمار و اتفاقات پیش‌بینی نشده.\\
+			}} \\
+			\hline
+		\end{tabularx}		
+	\end{table}
+
+	\pagebreak
+	
+	\section{تخمین زمان}\label{sec6:chap1}
 	\begin{figure}[!h]
 		\label{fig1:sec5:chap1}
 		\begin{flushleft}	
-			\quad		
+			\qquad\qquad		
 			\begin{subfigure}[t]{0.5\textwidth}
 				\includegraphics[width=\textwidth]{diagrams/gantChart_timeTable.pdf}
 				\caption{جدول زمانی}
@@ -218,7 +431,7 @@
 	\pagebreak
 	\section{
 		نمودار
-		BPMN}\label{sec6:chap1}
+		BPMN}\label{sec7:chap1}
 	نمودار 
 	\lr{BPMN}
 	استانداردی برای مدل‌سازی و نمایش فرایند‌های کسب‌و‌کار است. هدف اصلی در شکل گیری
@@ -265,6 +478,18 @@
 	\pagebreak
 	\chapter{
 	مستندات پیاده سازی}
+	\label{chp2}
+این فصل در مورد مستندات پیاده سازی، که شامل بخش‌های زیر است.
+	\begin{itemize}
+		\item 
+		نمودار کاربرد، برای درک بهتر ارتباطات میان اجزاء سیستم.
+		\item
+		نمودار 
+		\lr{ERD
+		}، که یک ساختار کلی از پایگاه داده، شامل ارتباطات میان جدول‌ها و کلید‌های اصلی و خارجی را نشان می‌دهد.
+		\item
+		نمودار کلاس،‌ یک نمودار برای درک بهتر معماری و ساختار برنامه.
+	\end{itemize}
 	\pagebreak
 	\section{
 		نمودار 
@@ -302,4 +527,21 @@
 			\caption{نمودار کلاس}
 		\end{center}
 	\end{figure}
+
+	\chapter{
+		رابط کاربری}
+	\label{chp3}
+	\section{
+	رابط کاربری دسکتاپ (پیشنهادی)}\label{sec1:chap3}
+
+	\begin{figure}[!h]
+		\label{fig1:sec1:chap3}
+		\begin{center}
+			\includegraphics[width=0.8\textwidth]{UI/Desktop-UI.pdf}
+			\caption{
+			رابط کاربری طراحی شده برای نسخه دسکتاپ (هنوز اجرایی نشده)
+			}
+		\end{center}
+	\end{figure}
+	
 \end{document}
