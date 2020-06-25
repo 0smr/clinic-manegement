@@ -2,6 +2,7 @@
 \documentclass[a4paper,12pt]{report}
 
 \usepackage{color}
+\usepackage{float}
 \usepackage{fourier}
 \usepackage{amsmath}
 \usepackage{dirtree}
@@ -378,7 +379,7 @@
 			& \multicolumn{1}{|l|}{\lr{\textbf{Priority:}}}
 			& \multicolumn{1}{|l|}{\lr{\textbf{Estimate:}}}\\
 			\rowcolor{rowBlue}
-			پذیرش بخش 3& 2 & 3 هفته\\
+			پذیرش بخش 3 & 2 & 3 هفته\\
 			\hline
 			\multicolumn{3}{|l|}{\lr{User Story:}} \\
 			\multicolumn{3}{|p{0cm}|}{\makecell[r]{
@@ -432,6 +433,13 @@
 	\pagebreak
 	
 	\section{تخمین زمان}\label{sec6:chap1}
+	
+	تخمین زمان به وسیله نمودار گانت مشخص شده و به موازات آن در جدول زمانی مشخص شده است.
+	
+	تخمین کل زمان برای پروژه تا فاز استقرار معادل 77 روز بوده‌است.
+	که جدا از فاز نگهداری مشخص شده است.
+	
+	و ممکن است در فاز نگهداری از نرم‌افزار، تغییراتی به منظور  به روز رسانی اعمال شود.
 	\begin{figure}[!h]
 		\label{fig1:sec5:chap1}
 		\begin{flushleft}	
@@ -514,12 +522,15 @@
 	\end{itemize}
 
 	کد نرم‌افزار تحت مجوز 
-	\lr{LGPLv3}
+	\hyperref{https://www.gnu.org/licenses/lgpl-3.0.en.html}{}{}{\lr{LGPLv3}}
 	در 
 	\lr{Github}
 	قرار دارد که می‌توانید از لینک زیر آن را مشاهده کنید. 
 	
-	\url{https://github.com/SMR76/clinic-manegement}
+	{
+		\LTR
+		\url{https://github.com/SMR76/clinic-manegement}
+	}
 	\pagebreak
 	\section{
 		نمودار 
@@ -570,46 +581,103 @@
 		\begin{center}
 			\includegraphics[width=0.8\textwidth]{UI/Desktop-UI.pdf}
 			\caption{
-			رابط کاربری طراحی شده برای نسخه دسکتاپ (هنوز اجرایی نشده)
+			نمونه پیشنهادی  داشبورد مدیریتی برای نسخه دسکتاپ
 			}
 		\end{center}
 	\end{figure}
 
+	\pagebreak
 	\section{
-		رابط کاربری دسکتاپ (پیشنهادی)
+		رابط کاربری دسکتاپ (حالت کنونی)
 	}\label{sec2:chap3}
 	
 	\begin{figure}[!h]
 		\centering
+		\footnotesize
 		\begin{subfigure}[t]{0.3\linewidth}
-			\includegraphics[width=0.9\textwidth]{UI/Desktop_UI_1.png}
-		\end{subfigure}
+			\frame{\includegraphics[width=0.9\textwidth]{UI/Desktop_UI_1.png}}
+			\caption{
+				صفحه ورود}
+		\end{subfigure}\hfill%
 		\begin{subfigure}[t]{0.3\linewidth}
-			\includegraphics[width=0.9\textwidth]{UI/Desktop_UI_2.PNG}
-		\end{subfigure}
+			\frame{\includegraphics[width=0.9\textwidth]{UI/Desktop_UI_2.PNG}}
+			\caption{
+				صفحه اصلی}
+		\end{subfigure}\hfill%
 		\begin{subfigure}[t]{0.3\linewidth}
-			\includegraphics[width=0.9\textwidth]{UI/Desktop_UI_3.PNG}
+			\frame{\includegraphics[width=0.9\textwidth]{UI/Desktop_UI_3.PNG}}
+			\caption{
+				افزودن کارمند}
 		\end{subfigure}
-		\par\bigskip
-		\vspace*{3mm}		
+
 		\begin{subfigure}[t]{0.3\linewidth}
-			\includegraphics[width=0.9\textwidth]{UI/Desktop_UI_4.png}
-		\end{subfigure}
+			\frame{\includegraphics[width=0.9\textwidth]{UI/Desktop_UI_4.png}}
+			\caption{
+				افزودن بیمه}
+		\end{subfigure}\hfill%
 		\begin{subfigure}[t]{0.3\linewidth}
-			\includegraphics[width=0.9\textwidth]{UI/Desktop_UI_5.PNG}
-		\end{subfigure}
+			\frame{\includegraphics[width=0.9\textwidth]{UI/Desktop_UI_5.PNG}}
+			\caption{
+				افزودن بیمار}
+		\end{subfigure}\hfill%
 		\begin{subfigure}[t]{0.3\linewidth}
-			\includegraphics[width=0.9\textwidth]{UI/Desktop_UI_6.PNG}
+			\frame{\includegraphics[width=0.9\textwidth]{UI/Desktop_UI_6.PNG}}
+			\caption{
+				افزودن سریع بیمار}
 		\end{subfigure}
-		\par\bigskip
-		\vspace*{3mm}		
+
 		\begin{subfigure}[t]{0.6\linewidth}
-			\includegraphics[width=0.9\textwidth]{UI/Desktop_UI_7.PNG}
+			\frame{\includegraphics[width=0.9\textwidth]{UI/Desktop_UI_7.PNG}}
+			\caption{
+				افزودن بیمار}
 		\end{subfigure}
+		\normalsize
 		\label{fig1:sec2:chap3}
 		\caption{
 			رابط کاربری کنونی برای دسکتاپ
 		}
 	\end{figure}
 	
+	\pagebreak
+	\section{
+		رابط کاربری سایت (حالت کنونی)
+	}\label{sec3:chap3}
+	
+	\begin{figure}[!h]
+		\centering
+		\footnotesize
+		\begin{subfigure}[t]{0.47\linewidth}
+			\frame{\includegraphics[width=\textwidth]{UI/Website_UI_1.png}}
+			\caption{
+				صفحه ورود}
+		\end{subfigure}\hfill%
+		\begin{subfigure}[t]{0.47\linewidth}
+			\frame{\includegraphics[width=\textwidth]{UI/Website_UI_2.PNG}}
+			\caption{
+				صفحه اصلی}
+		\end{subfigure}
+	
+		\begin{subfigure}[t]{0.47\linewidth}
+			\frame{\includegraphics[width=\textwidth]{UI/Website_UI_3.PNG}}
+			\caption{
+				درباره ‌ما}
+		\end{subfigure}\hfill%
+		\begin{subfigure}[t]{0.47\linewidth}
+			\frame{\includegraphics[width=\textwidth]{UI/Website_UI_4.png}}
+			\caption{
+				تماس با ما}
+		\end{subfigure}
+	
+		\begin{subfigure}[t]{0.75\linewidth}
+			\frame{\includegraphics[width=\textwidth]{UI/Website_UI_5.PNG}}
+			\caption{
+				لیست دکتر‌ها}
+		\end{subfigure}
+		\normalsize
+		\label{fig1:sec3:chap3}
+		\caption{
+			رابط کاربری کنونی برای دسکتاپ
+		}
+	\end{figure}
+
 \end{document}
