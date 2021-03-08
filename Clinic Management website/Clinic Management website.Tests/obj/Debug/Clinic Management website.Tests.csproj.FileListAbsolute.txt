@@ -1,0 +1,2 @@
+C:\Users\seyye\MyDocuments\Projects\C#\clinic-manegement\Clinic Management website\Clinic Management website.Tests\obj\Debug\Clinic Management website.Tests.csprojAssemblyReference.cache
+C:\Users\seyye\MyDocuments\Projects\C#\clinic-manegement\Clinic Management website\Clinic Management website.Tests\obj\Debug\Clinic Management website.Tests.csproj.CoreCompileInputs.cache
